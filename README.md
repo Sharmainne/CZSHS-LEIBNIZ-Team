@@ -2,11 +2,11 @@
 This repository showcases the CZSHS LEIBNIZ Team's self-driving car project for the Philippine Robot Olympiad (PRO) 2025 - Future Engineers Category (Self-Driving Car). It includes details on the robot’s design, functionalities, and technical specifications, highlighting our commitment to advancing autonomous technology. 
 
 # Main Content
->[Introduction](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#introduction)
+-[Introduction](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#introduction)
 
- >[The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
+ *[The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
 
->[Robot Specifications](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robot-specifications)
++[Robot Specifications](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robot-specifications)
 >
  
 
