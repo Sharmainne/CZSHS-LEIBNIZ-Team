@@ -1,0 +1,57 @@
+L.E.I.B.N.I.Z.
+Logic-driven Engineers Integrating Bots for Navigational Intelligence and Zero-emission mobility
+
+
+
+
+
+
+INTRODUCTION
+
+
+This Engineering official documentation of the CZSHS LEIBNIZ TEAM for the Philippine Robot Olympiad (PRO) 2025 in the Future Engineers Category. Our project, centered around the theme Future of the Engineers, showcases the culmination of creativity, innovation, and engineering expertise as we explore the future of autonomous technology.
+
+This documentation provides an in-depth look into the design, development, and technical aspects of our self-driving car project. From initial concepts to final implementation, we present the methodologies, challenges, and breakthroughs that define our journey. Through this project, we aim to demonstrate not only our technical proficiency but also our vision of how engineers will shape the future of robotics, mobility, and technology.
+
+We invite you to explore the comprehensive details of our project, which reflect our dedication to pioneering advancements in the field of autonomous systems. Together, we are building the future of engineering.
+
+
+
+
+SECONDCHOICE
+ 
+This Engineering official documentation of the CZSHS LEIBNIZ TEAM for the Philippine Robot Olympiad (PRO) 2025 in the Future Engineers Category. Our project, centered around the theme Future of the Engineers, explores the boundless potential of robotics in shaping the future of engineering and technology.
+
+In this documentation, we present our self-driving car project—an innovative leap into autonomous systems. As we build this robot, we explore not only the technologies behind self-driving vehicles but also the profound impact they will have on engineering, mobility, and society as a whole. From autonomous navigation to advanced sensor integration and artificial intelligence (AI), this project blends robotics, machine learning, and engineering principles to create a system that learns, adapts, and performs in dynamic environments.
+
+We delve into the robot's design, development processes, and technical specifications, offering insights into the robotic technologies that drive its autonomous capabilities. These technologies include object detection, real-time decision-making, sensor fusion, and machine learning algorithms, which together form the backbone of a fully autonomous vehicle.
+
+Our project is more than just a robotic self-driving car; it’s a vision for the future of robotics, where engineers are tasked with creating smarter, more efficient systems that can redefine how we interact with technology and the world around us. Through this work, we demonstrate our commitment to advancing the field of robotics and autonomous technology, striving to push the boundaries of what robots can achieve.
+
+As engineers, we are constantly working towards designing systems that not only perform tasks but also evolve, adapt, and improve. This project represents our belief that the future of engineers lies in creating intelligent, adaptable, and sustainable technologies that will shape tomorrow's world.
+
+
+
+
+
+
+FIRST CHOICE
+
+
+This is the official engineering documentation of the CZSHS LEIBNIZ TEAM for the Philippine Robot Olympiad (PRO) 2025 in the Future Engineers Category. Our project, centered around the theme Future of the Engineers, explores the boundless potential of robotics in shaping the future of engineering and technology.
+
+In this documentation, we present our self-driving car project—an innovative leap into autonomous systems. As we build this robot, we explore not only the technologies behind self-driving vehicles but also the profound impact they will have on engineering, mobility, and society as a whole. From autonomous navigation to advanced sensor integration, this project blends robotics, machine learning, and engineering principles to create a system that learns, adapts, and performs in dynamic environments.
+
+We delve into the robot's design, development processes, and technical specifications, offering insights into the robotic technologies that drive its autonomous capabilities. These technologies include object detection, real-time decision-making, sensor fusion, and machine learning algorithms, all of which form the backbone of a fully autonomous vehicle.
+
+Our project is more than just a robotic self-driving car; it is a vision for the future of robotics, where engineers are tasked with creating smarter, more efficient systems that can redefine how we interact with technology and the world around us. Through this work, we demonstrate our commitment to advancing the field of robotics and autonomous technology, striving to push the boundaries of what robots can achieve.
+
+
+Version 1:
+This official engineering documentation presents the work of the CZSHS LEIBNIZ TEAM for the Philippine Robot Olympiad (PRO) 2025 in the Future Engineers Category. Our project, built around the theme Future of the Engineers, explores the vast potential of robotics in shaping the future of engineering and technology.
+
+In this document, we outline our self-driving car project—an innovative step forward in autonomous systems. As we develop this robot, we examine not only the technologies behind self-driving vehicles but also the significant impact they will have on engineering, mobility, and society as a whole. From autonomous navigation to advanced sensor integration and artificial intelligence (AI), this project merges robotics, machine learning, and engineering principles to create a system that learns, adapts, and functions in dynamic environments.
+
+We provide an in-depth look into the robot's design, development processes, and technical specifications, offering valuable insights into the robotic technologies that power its autonomous capabilities. These technologies include object detection, real-time decision-making, sensor fusion, and machine learning algorithms, all of which serve as the foundation for a fully autonomous vehicle.
+
+Our project represents more than just a robotic self-driving car; it is a forward-looking vision of robotics, where engineers are tasked with developing smarter, more efficient systems that will transform the way we interact with technology and the world around us. Through this work, we highlight our commitment to pushing the boundaries of robotics and autonomous technology.
