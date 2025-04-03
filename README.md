@@ -14,5 +14,13 @@ This Engineering official documentation of the CZSHS LEIBNIZ TEAM for the Philip
 
 This documentation provides an in-depth look into the design, development, and technical aspects of our self-driving car project. From initial concepts to final implementation, we present the methodologies, challenges, and breakthroughs that define our journey. Through this project, we aim to demonstrate not only our technical proficiency but also our vision of how engineers will shape the future of robotics, mobility, and technology.
 
+# The Team
+
+
+# Robot Specifications
+
+
+# 1.Mobility Management
+
 
   
