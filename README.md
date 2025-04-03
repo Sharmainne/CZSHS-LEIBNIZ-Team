@@ -4,9 +4,9 @@ This repository showcases the CZSHS LEIBNIZ Team's self-driving car project for 
 # Main Content
 - [Introduction](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#introduction)
 
- _ [The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
+ - [The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
 
-_ [Robot Specifications](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robot-specifications)
+- [Robot Specifications](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robot-specifications)
 >
  
 
