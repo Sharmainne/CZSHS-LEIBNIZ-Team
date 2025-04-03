@@ -9,6 +9,7 @@ This documentation provides an in-depth look into the design, development, and t
 # MAIN CONTENT
 
 >Introduction
+
 >The Team
 >Robot Specifications
 >
