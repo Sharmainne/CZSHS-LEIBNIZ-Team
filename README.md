@@ -14,7 +14,7 @@
   -    [Robot Design](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#13robot-design)
     
 -  [Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#power-and-sense-management)
- -     [Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#21-power-management)
+-  -  [Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#21-power-management)
      -    [https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#211]
 
 # Introduction
