@@ -31,6 +31,13 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 # 1.Mobility Management
 ## 1.1.Motor Selection
+## 1.2.Robot Driving Mechanism
+## 1.3.Robot Design
+
+# Power and Sense Management
+## 2.1. Power Management
+### 2.1.1
+
 
 
   
