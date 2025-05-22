@@ -34,6 +34,11 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 # Robot Specifications
 
+# Robot's draft design
+# First Design
+![image](https://github.com/user-attachments/assets/8cb654bf-8500-41dd-af8e-074a7f89fb44)
+
+
 
 # 1.Mobility Management
 ## 1.1.Motor Selection
