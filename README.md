@@ -7,6 +7,8 @@
  - [The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
 
 - [Robot Specifications](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robot-specifications)
+  
+- [Robot's draft design](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robots-draft-design).
 
 - [1.Mobility Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#1mobility-management)
   -    [1.1.Motor Selection](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#11motor-selection)
