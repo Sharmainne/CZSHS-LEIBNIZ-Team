@@ -39,7 +39,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # Robot's draft design
 ## First Design
     The image shows the First draft of a LEGO-based robotic vehicle built using LEGO Education SPIKE Prime components. The robot includes a large hub with a hub battery, which is vertically mounted in the center of the structure and connected with ribbon cables. It also features a medium motor and a large motor, likely used to control the wheels and steering mechanisms. Additionally, the robot is equipped with six ultrasonic sensors, which are typically used for distance measurement and obstacle detection. These sensors are positioned strategically around the robot to enable environmental awareness, possibly for tasks like object avoidance or autonomous navigation. 
-![image](![image](https://github.com/user-attachments/assets/54ea35b9-cbad-48f6-8a83-c3da26b38cbc)
+(![image](https://github.com/user-attachments/assets/54ea35b9-cbad-48f6-8a83-c3da26b38cbc)
 
 
 
