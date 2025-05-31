@@ -17,7 +17,11 @@
     
 -  [2.Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#power-and-sense-management)
 -  -  [2.1.Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#21-power-management)
-    -   [2.2.https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#211]
+      
+ 
+-  [3.Obstacle Managemen](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#3obstacle-management)
+
+-  [4.Recommendatons](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#4recommendations)
 
 # Introduction
     This is the official engineering documentation of the Cielito Zamora Senior High School (CZSHS) LEIBNIZ Team for the Philippine Robot Olympiad (PRO) 2025 in the Future Engineers Category. Our project, centered around the theme Future of the Engineers, explores the boundless potential of robotics in shaping the future of engineering and technology. In this documentation, we present our self-driving car project, an innovative leap into autonomous systems. As we build this robot, we explore not only the technologies behind self-driving vehicles but also the profound impact they will have on engineering, mobility, and society as a whole. From autonomous navigation to advanced sensor integration, this project blends robotics, machine learning, and engineering principles to create a system that learns, adapts, and performs in dynamic environments. 
