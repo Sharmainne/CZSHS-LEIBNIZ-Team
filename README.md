@@ -16,10 +16,10 @@
   -    [1.3.Robot Design](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#13robot-design)
     
 -  [2.Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#power-and-sense-management)
--  -  [2.1.Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#21-power-management)
+  -  [2.1.Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#21-power-management)
       
  
--  [3.Obstacle Managemen](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#3obstacle-management)
+-  [3.Obstacle Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#3obstacle-management)
 
 -  [4.Recommendatons](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#4recommendations)
 
