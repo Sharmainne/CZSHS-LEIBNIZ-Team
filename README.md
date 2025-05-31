@@ -50,10 +50,15 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 ## 1.2.Robot Driving Mechanism
 ## 1.3.Robot Design
 
-# Power and Sense Management
+# 2.Power and Sense Management
 ## 2.1. Power Management
 ### 2.1.1
 
+
+# 3.Obstacle Management
+
+
+# 4.Recommendations
 
 
   
