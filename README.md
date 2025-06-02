@@ -38,31 +38,30 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 - Sharmainne Joy D. Campo
   
 
-# Robot Specifications
+# Main Robot Specifications
 
 # Robot's draft design
-## First Design
+# 1.First Design
     The image shows the First draft of a LEGO-based robotic vehicle built using LEGO Education SPIKE Prime components. The robot includes a large hub with a hub battery, which is vertically mounted in the center of the structure and connected with ribbon cables. It also features a medium motor and a large motor, likely used to control the wheels and steering mechanisms. Additionally, the robot is equipped with ultrasonic sensors, which are typically used for distance measurement and obstacle detection. These sensors are positioned infront of the robot to enable environmental awareness, possibly for tasks like object avoidance or autonomous navigation. 
 (![image](https://github.com/user-attachments/assets/358e0f76-56b9-41fa-a0cf-5844b7a0cb93)
 
+## 1.2 Power Management 
+
+### SPIKE™ Large Hub
+
+### SPIKE™ Large Hub Rechargeable Battery
+
+## 1.3 Sense Management
+
+### Ultra Sonic Sensor
+
+# 2.Second Design 
 
 
 
 
-# 1.Mobility Management
-## 1.1.Motor Selection
-## 1.2.Robot Driving Mechanism
-## 1.3.Robot Design
-
-# 2.Power and Sense Management
-## 2.1. Power Management
-### 2.1.1
 
 
-# 3.Obstacle Management
-
-
-# 4.Recommendations
 
 
   
