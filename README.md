@@ -17,20 +17,15 @@
 
 - [Robot Specifications](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robot-specifications)
   
-- [Robot's draft design](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robots-draft-design).
-
-- [1.Mobility Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#1mobility-management)
-  -    [1.1.Motor Selection](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#11motor-selection)
-  -    [1.2.Robot Driving Mechanism](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#12robot-driving-mechanism)
-  -    [1.3.Robot Design](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#13robot-design)
+- [1.Mobility Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#1-mobility-management)
     
--  [2.Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#power-and-sense-management)
-  -  [2.1.Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#21-power-management)
+-  [2.Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#2-power-and-sense-management)
+  
       
  
--  [3.Obstacle Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#3obstacle-management)
+-  [3.Obstacle Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#3-obstacle-management)
 
--  [4.Recommendatons](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#4recommendations)
+-  [4.Recommendatons](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team)
 
 # Introduction
     This is the official engineering documentation of the Cielito Zamora Senior High School (CZSHS) LEIBNIZ Team for the Philippine Robot Olympiad (PRO) 2025 in the Future Engineers Category. Our project, centered around the theme Future of the Engineers, explores the boundless potential of robotics in shaping the future of engineering and technology. In this documentation, we present our self-driving car project, an innovative leap into autonomous systems. As we build this robot, we explore not only the technologies behind self-driving vehicles but also the profound impact they will have on engineering, mobility, and society as a whole. From autonomous navigation to advanced sensor integration, this project blends robotics, machine learning, and engineering principles to create a system that learns, adapts, and performs in dynamic environments. 
@@ -49,14 +44,26 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 # Main Robot Specifications
 
-## 1. Mobility Management
+# 1. Mobility Management
+
+## 1.1. Motor Selection
+
+## 1.2. Robot Design
 
 
-## 2. Power and Sense Management
+# 2. Power and Sense Management
 
-## 3. Obstacle Management 
+## 2.1. Power Management 
 
-## 4. Recommendations
+## 2.2. Sense Management
+
+
+# 3. Obstacle Management 
+
+## 3.1. Open Challenge Strategy
+## 3.2. Obstacle Challenge Strategy
+
+# 4. Recommendations
 
 
 
