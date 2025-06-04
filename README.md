@@ -3,23 +3,20 @@
 
 
 
-
-
-
-
-
-
-
 # Main Content
 - [Introduction](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#introduction)
 
- - [The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
+    -[The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
 
 - [Robot Specifications](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robot-specifications)
   
 - [1.Mobility Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#1-mobility-management)
+    -[1.1. Motor Selection](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team)
+    -[1.2. Robot Design](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team)
     
 -  [2.Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#2-power-and-sense-management)
+    -[2.1. Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
+    -[2.2. Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
   
       
  
@@ -61,6 +58,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # 3. Obstacle Management 
 
 ## 3.1. Open Challenge Strategy
+
 ## 3.2. Obstacle Challenge Strategy
 
 # 4. Recommendations
