@@ -6,7 +6,7 @@
 # Main Content
 - [Introduction](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#introduction)
 
-  -[The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
+   - [The Team](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#the-team)
 
 - [Robot Specifications](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/README.md#robot-specifications)
   
