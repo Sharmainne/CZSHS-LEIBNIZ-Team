@@ -50,6 +50,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # 1. Mobility Management
 
 ## 1.1. Motor Selection
+### 1.1.2.AI STEAM 101S Simulated Steering Gear Module
 
 ## 1.2. Robot Design
 
@@ -59,13 +60,18 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 ## 2.1. Power Management 
 ### 2.1.1. AI Steam 101S Controller 
     The AISTEAM Controller is the central 'brain' of the Nashenbot AISTEAM educational robots, featuring an ARM Cortex-M3 processor. It processes sensor data, controls motors and outputs, and is programmable using AIcode (graphical and Python) while also being compatible with the BBC micro:bit and its MakeCode platform. It includes various I/O ports for sensors, motors, and displays, all designed to facilitate learning in AI and STEM. The team utilized this controller because it was capable of handling complex coding and supporting a camera, which the team could then use to address obstacle detection and avoidance.
+    ![image](https://github.com/user-attachments/assets/d5bd7f13-eb03-4b8d-9844-1c6f31d04700)
+
 
 ### 2.1.2. AI Steam 101S Lithium Battery Module 
     A lithium battery module in robotics is a self-contained unit of interconnected lithium-ion battery cells, designed to provide the necessary voltage and capacity to power a robot. It's crucial for mobile robots due to lithium's high energy density, and often includes a basic Battery Management System (BMS) for safety, thermal management, and modularity, allowing for flexible system design. The voltage a lithium battery module can handle depends on its internal series cell configuration. A single lithium-ion cell typically provides 3.6V-3.7V. Modules combine cells in series to achieve the higher voltages required for robots, with smaller educational robots commonly utilizing modules ranging from 7.4V to 14.8V. The team chose this particular module due to its user-friendliness, compatibility with the coding system, and overall convenience. 
+    ![image](https://github.com/user-attachments/assets/9798e91b-7471-476b-b7b0-080aacc9310c)
 
 ## 2.2. Sense Management
 ### 2.2.1 AI Steam 101S Camera 
     The AISTEAM 101S AI Camera is a multifunctional vision sensor that acts as the robot's "eyes," enabling it to capture and interpret visual data. It can perform tasks like color recognition, object detection, and line following. Integrated with the AISTEAM Controller's AI capabilities, it provides visual input for intelligent obstacle avoidance, basic machine learning, and more sophisticated robot behaviors, significantly enhancing the educational robot's ability to interact with and understand its environment. The team use this for own satisfactory and since this is capable for seeing the obstacle and track the height, length and color of the obstacle. 
+    ![image](https://github.com/user-attachments/assets/62fde19c-f9e1-4962-b2c9-0db87d4a5599)
+
     
 
 
