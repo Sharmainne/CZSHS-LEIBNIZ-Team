@@ -50,9 +50,15 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # 1. Mobility Management
 
 ## 1.1. Motor Selection
+
+
 ### 1.1.2.AI STEAM 101S Simulated Steering Gear Module
 
+
+
+
 ## 1.2. Robot Design
+
 
 
 # 2. Power and Sense Management
