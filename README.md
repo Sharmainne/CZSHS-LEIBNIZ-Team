@@ -63,7 +63,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 # 2. Power and Sense Management
 ## 2.1. Power Management 
-
+    Power management for robotics is the fundamental function of effectively governing, distributing, and optimizing a robot's electrical power. It means keeping track of and charging the power source safely, managing and distributing power to all devices, and actively minimizing energy usage through mechanisms such as sleep modes or dynamic power management. Its key significance is in maximizing autonomy, achieving stable performance, extending component life, and assuring the robot's safe use.
 ### 2.1.1. AI Steam 101S Controller 
     The AISTEAM Controller is the central 'brain' of the Nashenbot AISTEAM educational robots, featuring an ARM Cortex-M3 processor. It processes sensor data, controls motors and outputs, and is programmable using AIcode (graphical and Python) while also being compatible with the BBC micro:bit and its MakeCode platform. It includes various I/O ports for sensors, motors, and displays, all designed to facilitate learning in AI and STEM. The team utilized this controller because it was capable of handling complex coding and supporting a camera, which the team could then use to address obstacle detection and avoidance.
     
