@@ -48,11 +48,9 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # Main Robot Specifications
 
 # 1. Mobility Management
-
-## 1.1. Motor Selection
-
         In the Mobility management this are refers to the process of maintaining uninterrupted connectivity or access to a moving object. In telecommunications, it enables call/data transparency through monitoring device location and network handovers. For robotics, it is the capability of a robot to move autonomously, such as localization, mapping, path planning, and avoidance of obstacles, to preserve operational objectives during movement.
-    
+## 1.1. Motor Selection
+ 
     For the front wheels, the team used the "AI STEAM 101S Simulated Steering Gear Module" because it functions as a software-driven core for the robot's mobility. It controls Mecanum wheels with high precision to achieve various mechanical rotations. This module provides variable angular velocity (from slow to fast turning speed), infinite angular displacement (constant 360-degree rotation), and an exceptionally small, even zero, turning radius (allowing rotation about a point).
     
     Meanwhile, for the back wheels, the team used the "AI STEAM 101S Ordinary Motor Module" This is a simple module that energizes and regulates the mechanical rotation of a single motor. It can provide various angular velocities (motor speed, commonly in RPM) and typically allows for continuous angular displacement (unlimited rotation). Notably, it does not possess a 'specific rotation,' as that term applies only to chemical, not mechanical, properties.
