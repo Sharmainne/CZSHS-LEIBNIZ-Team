@@ -3,3 +3,7 @@
 
  ![image](https://github.com/user-attachments/assets/156feea5-8144-430e-a051-c370eecf6d76)
 
+# Version 2 
+  The second version of the vehicle, the team changed the components for more convenient use. They utilized the 'AI Steam 101S Controller' as the robot's brain, the 'AI Steam 101S Lithium Battery Module' for power, the 'AI Steam 101S Camera' as a sensor for the vehicle, and lastly, the 'AI STEAM 101S Simulated Steering Gear Module' for the front wheels and the 'AI STEAM 101S Ordinary Motor Module' for the back of the robot. However, the team primarily focused on getting the camera to work and increasing the wheel speed to enable the vehicle to rotate throughout the entire map. While the team successfully achieved this, they encountered a struggle with the robot because the current vehicle's camera became inconsistent, and the team also realized that the vehicle needed a gyroscope.
+
+  ![image](https://github.com/user-attachments/assets/b8f697cf-204b-46b9-8015-fbe848dad0da)
