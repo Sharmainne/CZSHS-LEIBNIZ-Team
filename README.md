@@ -50,12 +50,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # 1. Mobility Management
         In the Mobility management this are refers to the process of maintaining uninterrupted connectivity or access to a moving object. In telecommunications, it enables call/data transparency through monitoring device location and network handovers. For robotics, it is the capability of a robot to move autonomously, such as localization, mapping, path planning, and avoidance of obstacles, to preserve operational objectives during movement.
 ## 1.1. Motor Selection
- 
-    For the front wheels, the team used the "AI STEAM 101S Simulated Steering Gear Module" because it functions as a software-driven core for the robot's mobility. It controls Mecanum wheels with high precision to achieve various mechanical rotations. This module provides variable angular velocity (from slow to fast turning speed), infinite angular displacement (constant 360-degree rotation), and an exceptionally small, even zero, turning radius (allowing rotation about a point).
-    
-    Meanwhile, for the back wheels, the team used the "AI STEAM 101S Ordinary Motor Module" This is a simple module that energizes and regulates the mechanical rotation of a single motor. It can provide various angular velocities (motor speed, commonly in RPM) and typically allows for continuous angular displacement (unlimited rotation). Notably, it does not possess a 'specific rotation,' as that term applies only to chemical, not mechanical, properties.
-    
-    The team chose these specific modules for the robot because they wanted to compare different kinds of motors. As the team needed the fastest motors for the wheels, they found that both the simulated steering gear module and the **ordinary motor module** could provide sufficient speed.
+
 
 ## 1.2. Robot Design
 
@@ -64,28 +59,17 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # 2. Power and Sense Management
 ## 2.1. Power Management 
     Power management for robotics is the fundamental function of effectively governing, distributing, and optimizing a robot's electrical power. It means keeping track of and charging the power source safely, managing and distributing power to all devices, and actively minimizing energy usage through mechanisms such as sleep modes or dynamic power management. Its key significance is in maximizing autonomy, achieving stable performance, extending component life, and assuring the robot's safe use.
-### 2.1.1. AI Steam 101S Controller 
-    The AISTEAM Controller is the central 'brain' of the Nashenbot AISTEAM educational robots, featuring an ARM Cortex-M3 processor. It processes sensor data, controls motors and outputs, and is programmable using AIcode (graphical and Python) while also being compatible with the BBC micro:bit and its MakeCode platform. It includes various I/O ports for sensors, motors, and displays, all designed to facilitate learning in AI and STEM. The team utilized this controller because it was capable of handling complex coding and supporting a camera, which the team could then use to address obstacle detection and avoidance.
+### 2.1.1. 
+### 2.1.2.
     
-![image](https://github.com/user-attachments/assets/d5bd7f13-eb03-4b8d-9844-1c6f31d04700)
 
-### 2.1.2. AI Steam 101S Lithium Battery Module 
-    A lithium battery module in robotics is a self-contained unit of interconnected lithium-ion battery cells, designed to provide the necessary voltage and capacity to power a robot. It's crucial for mobile robots due to lithium's high energy density, and often includes a basic Battery Management System (BMS) for safety, thermal management, and modularity, allowing for flexible system design. The voltage a lithium battery module can handle depends on its internal series cell configuration. A single lithium-ion cell typically provides 3.6V-3.7V. Modules combine cells in series to achieve the higher voltages required for robots, with smaller educational robots commonly utilizing modules ranging from 7.4V to 14.8V. The team chose this particular module due to its user-friendliness, compatibility with the coding system, and overall convenience. 
-    
-![image](https://github.com/user-attachments/assets/9798e91b-7471-476b-b7b0-080aacc9310c)
 
 ## 2.2. Sense Management
     Sense management in robotics is the holistic process of acquiring, processing, interpreting, and utilizing data from a robot's multitude of sensors in order to know its surroundings and internal state. It encompasses sensor data acquisition, sensor fusion (integration of data across multiple sensors), data processing (filtering, calibration), perception (detection, localization, mapping), and finally, information utilization to drive the robot's control and decision-making mechanisms. It is important for autonomy, safety, task execution, and robustness
 
-### 2.2.1 AI Steam 101S Camera 
-    The AISTEAM 101S AI Camera is a multifunctional vision sensor that acts as the robot's "eyes," enabling it to capture and interpret visual data. It can perform tasks like color recognition, object detection, and line following. Integrated with the AISTEAM Controller's AI capabilities, it provides visual input for intelligent obstacle avoidance, basic machine learning, and more sophisticated robot behaviors, significantly enhancing the educational robot's ability to interact with and understand its environment. The team use this for own satisfactory and since this is capable for seeing the obstacle and track the height, length and color of the obstacle. 
-    
-![image](https://github.com/user-attachments/assets/62fde19c-f9e1-4962-b2c9-0db87d4a5599)
+### 2.2.1 
 
-### 2.2.2. AI Steam 101S Full-color light module
-    The AISTEAM 101S Full-color light module serves as a versatile output component, capable of producing a broad spectrum of colors. Its main functions span providing visual feedback (such as clear status indicators), facilitating creative and expressive programming, and even offering specialized illumination for visual communication. The team integrated this module primarily because its dynamic colors could provide crucial visual cues regarding detected environmental colors or the robot's operational states. This capability was vital for the robot's precise navigation and environmental interaction, particularly when adhering to project rules that mandated careful avoidance of obstacle edges and accurate recognition of traffic signs.
-
-![image](https://github.com/user-attachments/assets/7bcc0590-65cb-4440-8d41-0ca1d1f107a8)
+### 2.2.2. 
 
 
 
