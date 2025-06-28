@@ -50,8 +50,9 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # 1. Mobility Management
         In the Mobility management this are refers to the process of maintaining uninterrupted connectivity or access to a moving object. In telecommunications, it enables call/data transparency through monitoring device location and network handovers. For robotics, it is the capability of a robot to move autonomously, such as localization, mapping, path planning, and avoidance of obstacles, to preserve operational objectives during movement.
 ## 1.1. Motor Selection
-
-
+    For the front wheels, the team used the "AI STEAM 101S Simulated Steering Gear Module" because it functions as a software-driven core for the robot's mobility. It controls Mecanum wheels with high precision to achieve various mechanical rotations. This module provides variable angular velocity (from slow to fast turning speed), infinite angular displacement (constant 360-degree rotation), and an exceptionally small, even zero, turning radius (allowing rotation about a point).
+    while at the back of the vehicle the team use A 'LEGO Servo Motor' this is a specialized motor, since this  offers precise control over angular position rather than continuous rotation. It achieves this accuracy through a built-in encoder that provides feedback on its current angle. Unlike ordinary motors, it's commanded to move to specific positions within a limited range of motion (e.g., ±180 degrees), making it ideal for tasks requiring exact angular control like steering or operating robotic arms.
+     The team used the 'AI STEAM 101S Simulated Gear Module' and the 'LEGO Servo Motor' for the vehicle because both can provide the precise, software-driven control over motion in robots that the team desired. These motors enable complex robotic movements, such as advanced steering or accurate positioning, and rely on digital commands from a central controller, moving beyond simple continuous rotation.
 ## 1.2. Robot Design
 
 
