@@ -67,17 +67,16 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
     The team used the ESP32-WROOM-32 because of its relevance to power management. Its core ESP32 SoC is designed with advanced power efficiency features, offering various sleep modes (e.g., Deep Sleep) and dynamic frequency scaling to significantly reduce its own power consumption. This makes it ideal for optimizing battery life in embedded and IoT applications, and it helps the 18650 Lithium-ion batteries save enough power for the vehicle. Specifically, it can achieve significant power savings by utilizing its Deep Sleep mode, where current consumption drops from 80-150 mA (active) to as low as 5-20 µA.
 
 ### 2.1.4 TXS0108E chip
+    The Team used the TXS0108E chip for an 8-bit bidirectional voltage-level translator. Its primary use is to safely connect electronic components operating at different logic voltage levels (e.g., 3.3V and 5V), allowing them to communicate without damage and also for its safety. It automatically translates signals in both directions, making it essential for interoperability and protection in mixed-voltage circuits, common in robotics and DIY electronics. 
 
-
+    
 ## 2.2. Sense Management
     Sense management in robotics is the holistic process of acquiring, processing, interpreting, and utilizing data from a robot's multitude of sensors in order to know its surroundings and internal state. It encompasses sensor data acquisition, sensor fusion (integration of data across multiple sensors), data processing (filtering, calibration), perception (detection, localization, mapping), and finally, information utilization to drive the robot's control and decision-making mechanisms. It is important for autonomy, safety, task execution, and robustness
-
 ### 2.2.1 ESP 32 Camera
-
+    The ESP32-CAM module became the central camera of the vehicle. This module combines an ESP32-S chip with an integrated camera, primarily functioning as a low-cost, Wi-Fi and Bluetooth-enabled system for capturing and streaming images and video. It leverages the ESP32's robust microcontroller capabilities for both image processing and interfacing with other components. Given its common use in IoT surveillance, remote monitoring, and robotics for basic vision or First-Person View (FPV) applications, the team chose this module as the primary visual input for their robot. Its ability to provide real-time visual feedback wirelessly was crucial for the vehicle's navigation and interaction with its environment. 
 ### 2.2.2. Three Axis Digital Gyroscope Sensor Module 
-
+    Since the vehicle required a gyroscope, the team chose this module. The Three-Axis Digital Gyroscope Sensor Module's primary function is to measure angular velocity (rotational speed) around its X, Y, and Z axes in digital form. Its key importance lies in providing crucial data for orientation and attitude tracking, enabling stabilization systems, navigation, and motion sensing in various applications, including robotics. Specifically, it provides fundamental data on the robot's angular velocity, which is essential for the vehicle to understand its own rotational movement and maintain stability during operation.
 ### 2.2.3 Ultra Sonic Sensor
-
 
 
 
