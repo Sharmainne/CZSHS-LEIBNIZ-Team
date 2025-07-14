@@ -95,14 +95,40 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 
 # 3. Obstacle Management 
-       Obstacle management refers to the integrated set of processes and technologies that enable autonomous robots to detect, identify, assess, and intelligently react to physical impediments in their operating environment. This critical function begins with the robot utilizing various sensors, such as ultrasonic sensors, LiDAR, and cameras, to perceive potential obstacles. Following detection, the robot's onboard systems classify the object, evaluate its characteristics (like size, distance, and movement), and predict its trajectory to understand the potential impact on its planned path. The ultimate goal of robotic obstacle management is to ensure safe, efficient, and successful navigation, preventing collisions and maintaining operational integrity. Based on its assessment, the robot's control system then determines the most appropriate action, which can range from simple avoidance maneuvers (like steering around an object), stopping, waiting for a dynamic obstacle to clear, or even more complex path re-planning. Effective obstacle management is fundamental for a robot's autonomy, reliability, and safety, allowing it to operate independently and intelligently within real-world, often unpredictable, environments.
- 
-## 3.1. Open Challenge Strategy
+    To successfully detect and negotiate the obstacles on the field, a meticulously planned strategy is essential for completing 3 laps in both the Open and Obstacle Challenge Rounds. The team dedicated significant time to developing efficient obstacle management approaches, consistently incorporating innovative and effective ideas into their strategy.
+## 3.1. Determine Driving Direction
+    For precise obstacle management, the ESP32 Camera is critically utilized. It is specifically programmed to identify the color of obstacles, which then dictates the robot's driving direction: upon detecting a red obstacle, the robot is commanded to turn to the right; conversely, if a green obstacle is identified, the robot is directed to turn to the left. This direct visual feedback is fundamental to the robot's ability to navigate the obstacle course effectively and make real-time, color-based decisions for safe passage.
 
-## 3.2. Obstacle Challenge Strategy
+### 3.1.
+
+## 3.2. Open Challenge Strategy
+     In Open Challenge Rounds, the only obstacles present on the game field are its outer boundary wall and the randomly placed inner wall. The robot must not touch the outer wall and must not move the inner wall to successfully finish the three laps requirement.
+### 3.2.1
+
+## 3.3. Obstacle Challenge Strategy
+
+### 3.3.1 Traffic Sign Direction
+
+### 3.3.2. Parking lot Detection
+
 
 # 4. Recommendations
 
+# 5. Program Construction Guide
+
+## 5.1. Camera Program Guide
+
+## 5.2. ESP32 Wroom Program Guide
+
+## 5.3. Final step 
+
+# 6. Appendices
+
+## 6.1. Team Photos
+
+## 6.2. Vehicle Photos
+
+## 6.3. Vehicle Bills of Materials
 
 
 
