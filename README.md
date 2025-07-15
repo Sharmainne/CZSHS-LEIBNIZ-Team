@@ -130,23 +130,20 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 ### 3.3.2. Parking lot Detection
 
 
-# 4. Recommendations
+# 4. Program Construction Guide
 
-# 5. Program Construction Guide
+## 4.1. Camera Program Guide
 
-## 5.1. Camera Program Guide
+## 4.2. ESP32 Wroom Program Guide
 
-## 5.2. ESP32 Wroom Program Guide
 
-## 5.3. Final step 
+# 5. Appendices
 
-# 6. Appendices
+## 5.1. Team Photos
 
-## 6.1. Team Photos
+## 5.2. Vehicle Photos
 
-## 6.2. Vehicle Photos
-
-## 6.3. Vehicle Bills of Materials
+## 5.3. Vehicle Bills of Materials
 
 
 
