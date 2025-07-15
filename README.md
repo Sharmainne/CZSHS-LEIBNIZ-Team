@@ -109,13 +109,22 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 ## 3.1. Determine Driving Direction
     For precise obstacle management, the ESP32 Camera is critically utilized. It is specifically programmed to identify the color of obstacles, which then dictates the robot's driving direction: upon detecting a red obstacle, the robot is commanded to turn to the right; conversely, if a green obstacle is identified, the robot is directed to turn to the left. This direct visual feedback is fundamental to the robot's ability to navigate the obstacle course effectively and make real-time, color-based decisions for safe passage.
 
-### 3.1.
-
 ## 3.2. Open Challenge Strategy
      In Open Challenge Rounds, the only obstacles present on the game field are its outer boundary wall and the randomly placed inner wall. The robot must not touch the outer wall and must not move the inner wall to successfully finish the three laps requirement.
-### 3.2.1
+### 3.2.1 Wall Avoidance 
+    o successfully avoid touching the outer boundary wall, the robot automatically performs a 90° turn based on gyro when it detects it is within a specific distance. This can ensure that the robot maintains a safe distance from the outer wall after each maneuver. The ultrasonic sensor is critical for detecting if the robot is about to collide with the outer wall; if an imminent collision is detected, the robot immediately steers away and especially, to make the robot align itself to the middle distance between walls. Furthermore, these ultrasonic sensor also enables the robot to maintain a precise angle, guaranteeing proper turns and straight driving paths after each rotation.
+
+Ultra_Sonics::Ultra_Sonics(int max_distance, int trigPin1, int echoPin1, 
+                           int trigPin2, int echoPin2, 
+                           int trigPin3, int echoPin3, 
+                           int trigPin4, int echoPin4) : 
+                           mySonar1(trigPin1, echoPin1, max_distance),
+                           mySonar2(trigPin2, echoPin2, max_distance),
+                           mySonar3(trigPin3, echoPin3, max_distance),
+                           mySonar4(trigPin4, echoPin4, max_distance) {}
 
 ## 3.3. Obstacle Challenge Strategy
+    In Obstacle Challenge Rounds, the game field becomes much more complex with increased obstacles. The robot must navigate a field containing an outer boundary, a random inner wall, and up to seven randomly colored traffic signs (green or red), plus two parking lot boundaries. The robot's tasks include passing green signs on the left, red signs on the right, and parking between the lot boundaries after completing three laps, all while avoiding contact with any traffic signs or parking boundaries.
 
 ### 3.3.1 Traffic Sign Direction
 
