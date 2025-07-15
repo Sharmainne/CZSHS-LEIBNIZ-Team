@@ -27,27 +27,19 @@
    - [3.1. Determine Driving Direction](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#31-determine-driving-direction)
 
    - [3.2. Open Challange Strategy](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#32-open-challenge-strategy)
-   - 
+     
    - [3.3 Obstacle Challenge Strategy](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#33-obstacle-challenge-strategy)
 
--  [4.Recommendatons](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#4-recommendations)
+-  [4.Program Construction Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+   - [4.1. Camera Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+   - [4.2. ESP32 Wroom Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+     
+-  [5. Appendices](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+   - [5.1. Team Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+   - [5.2. Vehicle Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+   - [5.3. Vehicle Bills of Materials](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
 
--  [5.Program Construction Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-   
-   - [5.1. Camera Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
      
-   - [ESP32 Wroom Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-     
-   - [5.3. Final Step](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-     
--  [6. Appendices](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-  
-   - [6.1. Team Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-  
-   - [6.2. Vehicle Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-     
-   - [6.3. Vehicle Bills of Materials](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-
 # Introduction
     This is the official engineering documentation of the Cielito Zamora Senior High School (CZSHS) LEIBNIZ Team for the Philippine Robot Olympiad (PRO) 2025 in the Future Engineers Category. Our project, centered around the theme "Future of the Engineers," explores the boundless potential of robotics in shaping the future of engineering and technology. In this documentation, we present our self-driving car project, an innovative leap into autonomous systems. As we build this robot, we explore not only the technologies behind self-driving vehicles but also the profound impact they will have on engineering, mobility, and society as a whole. From autonomous navigation to advanced sensor integration, this project blends robotics, machine learning, and engineering principles to create a system that learns, adapts, and performs in dynamic environments. 
     This gives key aspects of the CZSHS LEIBNIZ Team robot’s development. We delve into the robot's design, development processes, and technical specifications, offering insights into the robotic technologies that drive its autonomous capabilities. These technologies include object detection, real-time decision-making, sensor fusion, and machine learning algorithms, all of which form the backbone of a fully autonomous vehicle. Our project is more than just a robotic self-driving car; it is a vision for the future of robotics, where engineers are tasked with creating smarter, more efficient systems that can redefine how we interact with technology and the world around us. Through this work, we demonstrate our commitment to advancing the field of robotics and autonomous technology, striving to push the boundaries of what robots can achieve.
