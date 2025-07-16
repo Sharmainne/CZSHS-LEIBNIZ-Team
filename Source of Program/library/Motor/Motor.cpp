@@ -1,40 +1,34 @@
 #include "Motor.h"
 #include <Arduino.h>
 
-Motor::Motor(int pin1, int pin2) : pin1(pin1), pin2(pin2) {
-    pinMode(pin1, OUTPUT);
-    pinMode(pin2, OUTPUT);
-}
-Motor::Motor(int pin1, int pin2, int deadzone) : pin1(pin1), pin2(pin2), zone(deadzone) {
+Motor::Motor(int Pin1, int Pin2) : pin1(Pin1), pin2(Pin2) {}
+
+void Motor::setup(int Pin1, int Pin2) {
+    this->pin1 = Pin1;
+    this->pin2 = Pin2;
     pinMode(pin1, OUTPUT);
     pinMode(pin2, OUTPUT);
 }
 
-void Motor::setup(int pin1, int pin2) {
-    this->pin1 = pin1;
-    this->pin2 = pin2;
+void Motor::setup() {
     pinMode(pin1, OUTPUT);
     pinMode(pin2, OUTPUT);
-}
-
-void Motor::deadzone(int deadzone) {
-    this->zone = deadzone;
 }
 
 void Motor::write(int speed) {
     speed = constrain(speed, -255, 255); // Clamp the speed to the range [-255, 255]
     last_speed = speed;
-    if (-zone <= speed && speed <= zone) speed = 0;
-    speed = abs(speed);
     if (speed > 0) {
+        speed = abs(speed);
         analogWrite(pin1, speed);
-        digitalWrite(pin2, LOW);
+        analogWrite(pin2, 0);
     } else if (speed < 0) {
-        digitalWrite(pin1, LOW);
+        speed = abs(speed);
+        analogWrite(pin1, 0);
         analogWrite(pin2, speed);
     } else {
-        digitalWrite(pin1, LOW);
-        digitalWrite(pin2, LOW);
+        analogWrite(pin1, 0);
+        analogWrite(pin2, 0);
     }
 }
 
@@ -45,6 +39,6 @@ int Motor::read() {
 
 void Motor::reset() {
     last_speed = 0;
-    digitalWrite(pin1, LOW);
-    digitalWrite(pin2, LOW);
+    analogWrite(pin1, LOW);
+    analogWrite(pin2, LOW);
 }
