@@ -24,7 +24,7 @@
   
 -  [3.Obstacle Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#3-obstacle-management)
 
-   - [3.1. Determine Driving Direction](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#31-determine-driving-direction)
+   - [3.1. Robot Driving Mechanism](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#31-determine-driving-direction)
 
    - [3.2. Open Challange Strategy](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#32-open-challenge-strategy)
      
@@ -79,7 +79,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 ### 2.1.1. 18650 lithium-ion batteries
     18650 lithium-ion batteries are the source of the power of the veehicle, valued for their high energy density and nominal voltage of 3.6V or 3.7V per cell (which can be combined into higher voltage packs). This provide the necessary high discharge current for motors and power microcontrollers/sensors, enabling longer operating times and customizable battery configurations. Proper safety measures, such as a Battery Management System (BMS), are crucial due to their unprotected nature. 
     Given their ability to supply power for the entire system, including sensor management, the team decided to use these batteries as the primary power source for the vehicle. This choice was essential because the vehicle combines various components that collectively operate its functions, all requiring a reliable power supply.
-### 2.1.2. ESP 32 Wroom
+### 2.1.2. ESP 32
     The team used the ESP32-WROOM-32 because of its relevance to power management. Its core ESP32 SoC is designed with advanced power efficiency features, offering various sleep modes (e.g., Deep Sleep) and dynamic frequency scaling to significantly reduce its own power consumption. This makes it ideal for optimizing battery life in embedded and IoT applications, and it helps the 18650 Lithium-ion batteries save enough power for the vehicle. Specifically, it can achieve significant power savings by utilizing its Deep Sleep mode, where current consumption drops from 80-150 mA (active) to as low as 5-20 µA.
 
     The team designated the ESP32-WROOM-32 as the central processing unit, or "brain," of the vehicle. This strategic choice was made due to its powerful dual-core processor and integrated Wi-Fi and Bluetooth capabilities, which provide the necessary computational power and connectivity to manage all critical operations and complex decision-making processes required for the robot's autonomous functions.As the vehicle's brain, the ESP32-WROOM-32 is responsible for orchestrating every aspect of its operation. This includes processing data from various sensors (like the ESP32-CAM and gyroscope), executing control algorithms for navigation and obstacle avoidance, and coordinating actions with actuators such as motors. Its wireless capabilities further enable remote control, data logging, and communication with other systems, making it an indispensable core for the vehicle's intelligent and connected functionality.
@@ -113,22 +113,19 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 # 3. Obstacle Management 
     To successfully detect and negotiate the obstacles on the field, a meticulously planned strategy is essential for completing 3 laps in both the Open and Obstacle Challenge Rounds. The team dedicated significant time to developing efficient obstacle management approaches, consistently incorporating innovative and effective ideas into their strategy.
-## 3.1. Determine Driving Direction
-    For precise obstacle management, the ESP32 Camera is critically utilized. It is specifically programmed to identify the color of obstacles, which then dictates the robot's driving direction: upon detecting a red obstacle, the robot is commanded to turn to the right; conversely, if a green obstacle is identified, the robot is directed to turn to the left. This direct visual feedback is fundamental to the robot's ability to navigate the obstacle course effectively and make real-time, color-based decisions for safe passage.
+## 3.1. Robot Driving Mechanism
+    
 
 ## 3.2. Open Challenge Strategy
      In Open Challenge Rounds, the only obstacles present on the game field are its outer boundary wall and the randomly placed inner wall. The robot must not touch the outer wall and must not move the inner wall to successfully finish the three laps requirement.
 ### 3.2.1 Wall Avoidance 
-    o successfully avoid touching the outer boundary wall, the robot automatically performs a 90° turn based on gyro when it detects it is within a specific distance. This can ensure that the robot maintains a safe distance from the outer wall after each maneuver. The ultrasonic sensor is critical for detecting if the robot is about to collide with the outer wall; if an imminent collision is detected, the robot immediately steers away and especially, to make the robot align itself to the middle distance between walls. Furthermore, these ultrasonic sensor also enables the robot to maintain a precise angle, guaranteeing proper turns and straight driving paths after each rotation.
+    To successfully avoid touching the outer boundary wall, the robot automatically performs a 90° turn based on gyro when it detects it is within a specific distance. This can ensure that the robot maintains a safe distance from the outer wall after each maneuver. The ultrasonic sensor is critical for detecting if the robot is about to collide with the outer wall; if an imminent collision is detected, the robot immediately steers away and especially, to make the robot align itself to the middle distance between walls. Furthermore, these ultrasonic sensor also enables the robot to maintain a precise angle, guaranteeing proper turns and straight driving paths after each rotation.
     
-```python
-
-```
 
 ## 3.3. Obstacle Challenge Strategy
     In Obstacle Challenge Rounds, the game field becomes much more complex with increased obstacles. The robot must navigate a field containing an outer boundary, a random inner wall, and up to seven randomly colored traffic signs (green or red), plus two parking lot boundaries. The robot's tasks include passing green signs on the left, red signs on the right, and parking between the lot boundaries after completing three laps, all while avoiding contact with any traffic signs or parking boundaries.
 
-### 3.3.1 Traffic Sign Direction
+### 3.3.1 Traffic Sign Ditection
 
 ### 3.3.2. Parking lot Detection
 
