@@ -50,7 +50,7 @@ float KiWall=0.0;
 float KdWall=0.1;
 
 PID mySteeringPID(KpGyro, KiGyro, KdGyro); // PID for steering control
-PID myWallSteer(KpWall, KiWall, KdWall);
+PID myWallSteer(KpWall, KiWall, KdWall); // PID for aligning the robot at the middle
 
 void setup() {
   Serial.begin(115200);
@@ -83,7 +83,6 @@ void setup() {
   myMotor.write(140); // To make the robot move forward
 }
 
-//=============================================================//
 // to initialize these variables to 0
 int turn = 0;
 int direction = 0;
