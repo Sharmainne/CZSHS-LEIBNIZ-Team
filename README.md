@@ -121,14 +121,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
     o successfully avoid touching the outer boundary wall, the robot automatically performs a 90° turn based on gyro when it detects it is within a specific distance. This can ensure that the robot maintains a safe distance from the outer wall after each maneuver. The ultrasonic sensor is critical for detecting if the robot is about to collide with the outer wall; if an imminent collision is detected, the robot immediately steers away and especially, to make the robot align itself to the middle distance between walls. Furthermore, these ultrasonic sensor also enables the robot to maintain a precise angle, guaranteeing proper turns and straight driving paths after each rotation.
     
 ```python
-Ultra_Sonics::Ultra_Sonics(int max_distance, int trigPin1, int echoPin1, 
-                           int trigPin2, int echoPin2, 
-                           int trigPin3, int echoPin3, 
-                           int trigPin4, int echoPin4) : 
-                           mySonar1(trigPin1, echoPin1, max_distance),
-                           mySonar2(trigPin2, echoPin2, max_distance),
-                           mySonar3(trigPin3, echoPin3, max_distance),
-                           mySonar4(trigPin4, echoPin4, max_distance) {}
+
 ```
 
 ## 3.3. Obstacle Challenge Strategy
