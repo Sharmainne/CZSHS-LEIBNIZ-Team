@@ -49,13 +49,13 @@
 
 In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 - Juan Miguel C. Rabanal
-https://www.facebook.com/juanmiguel.rabanal?mibextid=ZbWKwL
+- Social Media contact: https://www.facebook.com/juanmiguel.rabanal?mibextid=ZbWKwL
   
 - Jan Josh D.T. Santos
-https://www.facebook.com/janjosh.santos.1?mibextid=ZbWKwL
+- Social Media contact: https://www.facebook.com/janjosh.santos.1?mibextid=ZbWKwL
   
 - Sharmainne Joy D. Campo
-  https://www.facebook.com/share/1XqtCNYRpd/
+- Social Media contact: https://www.facebook.com/share/1XqtCNYRpd/
 
 
 # Main Robot Specifications
