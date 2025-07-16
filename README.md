@@ -134,6 +134,8 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 # 4. Program Construction Guide
 
+The program construction for the CZSHS LEIBNIZ Team robotics project is centered in this repository, which serves as the official codebase for all robot control software for the Philippine Robotics Olympiad (PRO) 2025. All logic and algorithms are implemented in C++ and maintained within the "source of program" directory, ensuring every source file uses the `.cpp` extension for proper syntax highlighting and compilation. The codebase is organized by functionality—such as sensor handling, motor control, and decision-making to promote clarity and ease of development. Team members follow clear and consistent naming conventions, write modular code, and document important sections to better understand and for future updates. Before committing, all changes are tested thoroughly, both in simulation and on the robot, to ensure reliability. Collaboration is facilitated through regular updates: members pull the latest changes before starting new work, use branches for features or fixes, and submit clear, descriptive commit messages. Major updates or issues are communicated through the repository’s discussion tools. By adhering to these practices, the team maintains an organized, maintainable, and competition-ready program.
+
 ## 4.1. Camera Program Guide
 
 ## 4.2. ESP32 Wroom Program Guide
