@@ -5,10 +5,10 @@
 #include "Gyro.h"           // For Gyro Sensor
 #include "Motor.h"          // For Motor control
 #include "PID.h"            // For PID control
-#include "Button.h"
+#include "Button.h"         // For Starter's button
 #include "OTA.h"            // For OTA functionality
 
-#define ButtonPin 15
+#define ButtonPin 15 
 
 #define Gyro_I2C_SDA 21
 #define Gyro_I2C_SCL 22
@@ -32,32 +32,19 @@ Button myButton(ButtonPin);
 Gyro myGyro(Gyro_I2C_SDA, Gyro_I2C_SCL);
 Motor myMotor(Motor_1, Motor_2);
 
-Servo_Motor myServoSteering(ServoSteeringPin, 50, 500, 2500, 190, -30, 30);
-Servo_Motor myServoCamera(ServoCameraPin, 50, 500, 2500, 180);
+Servo_Motor myServoSteering(ServoSteeringPin, 50, 500, 2500, 190, -30, 30); //
+Servo_Motor myServoCamera(ServoCameraPin, 50, 500, 2500, 180); //
 
 Ultra_Sonics mySonars(200,  Ultra_Sonic_Trig_1, Ultra_Sonic_Echo_1, 
                             Ultra_Sonic_Trig_2, Ultra_Sonic_Echo_2, 
                             Ultra_Sonic_Trig_3, Ultra_Sonic_Echo_3, 
-                            Ultra_Sonic_Trig_4, Ultra_Sonic_Echo_4);
-
-// Display myDisplay(18, 23, 5, &myGyro, &myMotor, &myButton, &myServoSteering, &myServoCamera, &mySonars);
-
-
-// with display
-//PID = 1.0, 0.0, 0.1 ; 100 ; smooth
-//PID = 1.0, 0.0, 0.1 ; 180 ; smooth
-//PID = 0.8, 0.0, 0.1 ; 180 ; smooth
-
-//PID = 0.4, 0.0, 0.1 ; 255 ; smooth
-//PID = 0.6, 0.0, 0.1 ; 225 ; smooth
-//PID = 0.6, 0.0, 0.1 ; 200 ; smooth
-
+                            Ultra_Sonic_Trig_4, Ultra_Sonic_Echo_4); // The limitation of ultrasonic detection is 200
 //PID for Gyro steering
 float KpGyro=0.6;
 float KiGyro=0.0;
 float KdGyro=0.1;
 
-//PID for Wall Avoidance
+//PID for Wall Avoidance, to make our robot align itself at the middle between walls
 float KpWall=0.8;
 float KiWall=0.0;
 float KdWall=0.1;
@@ -65,63 +52,25 @@ float KdWall=0.1;
 PID mySteeringPID(KpGyro, KiGyro, KdGyro); // PID for steering control
 PID myWallSteer(KpWall, KiWall, KdWall);
 
-
-// OTA myOTA("HONOR 90 Lite", "lebronpogi", "robot-esp32", "qwerty", &myDisplay);
-
 void setup() {
   Serial.begin(115200);
-  Serial.println("Robot ESP32 starting...");
-  // myDisplay.setup();
-  // myDisplay.status(1, "Starting ESP 32..");
-  // myDisplay.displayData(); 
-  // // myOTA.begin(&myButton);
-  // myDisplay.changeState(EMERGENCY);
-  // myDisplay.clearScreen();    
-  
-  myMotor.setup();
+  Serial.println("Robot ESP32 starting..."); // To determine if our robot is ready enough to make a run
 
-  // myDisplay.status(1, "Starting Gyro");
-  // myDisplay.displayData(); 
+  // To setup the values to 0
+  myMotor.setup();
   myGyro.setup();
-  
-  // myDisplay.status(1, "Starting Button");
-  // myDisplay.displayData(); 
   myButton.setup();
   
-  // myDisplay.status(1, "Starting Servo");
-  // myDisplay.displayData();
-  myServoSteering.write360(0);
+  myServoSteering.write360(0);  // To stop the rear wheels from moving
   
-  
-  // // In your setup() function, replace the standby loop with:
-
-  // myDisplay.changeState(NORMAL);
-  // myDisplay.status(1, "Gyro stabilizing...");
-  // myDisplay.status(2, "Please wait");
-  // myDisplay.displayData();
-
-  // // Wait for gyro to stabilize
-  // while (!myGyro.isStabilized() || myButton.Pressed()) {
-  //     myOTA.handle();
-  //     myGyro.getData();
-  //     myGyro.readAll();
-  //     mySonars.read();
-  //     myDisplay.status(1, "Gyro stabilizing...");
-  //     myDisplay.status(2, "Please wait");
-  //     myDisplay.statusf(3, "Reads: %d, %3.2f", myGyro.stabilizationSampleCount, myGyro.readX());
-  //     myDisplay.displayData();
-  //     delay(50); // Small delay to prevent overwhelming the display
-  // }
-
   // Now wait for button press to start
   while (!myButton.Pressed()) {
-      // myOTA.handle();
+    // setup the value of gyro to 0 and run the ultrasonics
       myGyro.getData();
       myGyro.readAll();
       mySonars.read();
-      // myDisplay.status(1, "Stand by...");
-      // myDisplay.status(2, "Press to start");
-      // myDisplay.displayData();
+   
+    // To monitor the value of gyro and ultrasonics
       Serial.print(" ANGLE: ");
       Serial.print(myGyro.AccumAngleX); Serial.print(" ");
       Serial.print(" Sonars: ");
@@ -131,26 +80,18 @@ void setup() {
       Serial.print(mySonars.getRight()); Serial.println(" ");
   }
 
-  // myDisplay.statusClear();
-  myMotor.write(140); // gather sensor data
+  myMotor.write(140); // To make the robot move forward
 }
 
 //=============================================================//
-
+// to initialize these variables to 0
 int turn = 0;
 int direction = 0;
 int targetAngle = 0;
 int turnTime = 0;
 int nextTurn = 0;
 
-// PID = 0.5, 0.0, 0.01 ; 100,120 ; smooth
-// turntimemax = 25; 
-// nextturnmax = 50;
-// totalwidth = 200; 
-// gyrodriftcompensation = 1.2; 
-// targetAngleRange = 20; 
-// frontDistance = 350; 
-
+// For global calibration of these variables
 int turntimemax = 25; // Maximum time to turn
 int nextturnmax = 60; // Maximum time to wait before next turn
 int totalwidth = 200; // Minimum distance to side wall for turning
@@ -159,36 +100,16 @@ int targetAngleRange = 50; // Acceptable range for target angle
 int frontDistance = 400; // Maximum distance to front wall for turning
 
 void loop() {
-  // myOTA.handle();
-  
-  // Check if OTA is active - if so, skip the main robot logic
-  // if (myOTA.isOTAActive()) return; // Exit loop early, don't execute robot code
-
-  // myButton.update();
-  // if (myButton.getPressTypeInt() == 4) {
-  //   ESP.restart();
-  // }
-  
-  
- 
-  
-
 
   myGyro.getData();
   myGyro.readAll();
   mySonars.read();
 
-  targetAngle = ((turn * 90) - (turn * gyrodriftcompensation * -direction)) * direction;
+  targetAngle = ((turn * 90) - (turn * gyrodriftcompensation * -direction)) * direction;  // To guide the robot's turn consecutively then calculated value will be received by gyro
 
   // logic to turn based on the following:
   // 1. the angle is within range of +/-10 of the target angle
   // 2. the front is is less than 
-
-  //  if (mySonars.getFront() <= 100 && abs(myGyro.AccumAngleX - targetAngle) <= 10 && turnTime == 0 && nextTurn == 0) {
-  //   turn++;
-  //   turnTime = 10;
-  //   nextTurn = 20;
-  // }
 
   if ((targetAngle - targetAngleRange <= myGyro.AccumAngleX && myGyro.AccumAngleX <= targetAngle + targetAngleRange) 
       && mySonars.getFront() <= frontDistance
@@ -200,9 +121,9 @@ void loop() {
     nextTurn = nextturnmax;
     if (direction == 0) {
       if (mySonars.getLeft() > mySonars.getRight()) {
-        direction = -1;
+        direction = -1; // if the ultaronic on the left side is greater than ultraonic on right side, he direction(-1) will be multiplied to 90° turn of servo steering motor
       } else {
-        direction = 1;
+        direction = 1; // if the ultaronic on the left side is greater than ultraonic on right side, the direction (1) will be multiplied to 90° turn of servo steering motor
       }
     }
   }
@@ -230,18 +151,7 @@ void loop() {
   myServoSteering.write360(-pid);
   myMotor.write(constrain((mySonars.getFront()/1.5) + 20, 100, 255)); // gather sensor data
 
-  // myDisplay.changeState(NORMAL);
-  // myDisplay.statusf(1, "%d %d %d %d %2d",targetAngle - 10 <= myGyro.AccumAngleX,
-                                        // myGyro.AccumAngleX <= targetAngle + 10,
-                                        // mySonars.getFront() <= 80,
-                                        // mySonars.getSide() >= 100,
-                                        // turnTime;
-  //                                   );
-  // myDisplay.statusf(2, "%2d %2d %2d %2d %d", wallsteer, nextTurn, turnTime, -pid, direction);
-  // myDisplay.statusf(3, "%2d %d | %3d %3d", turn, direction == 0 && mySonars.getLeft() > mySonars.getRight(), mySonars.getFront(), mySonars.getSide());
-  // myDisplay.displayData();
-  // Serial output for debugging instead of display
-
+  // To monior the behavior of our robot
   Serial.print("TARGET: ");
   Serial.print(targetAngle); Serial.print(" ");
   Serial.print(" ANGLE: ");
