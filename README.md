@@ -19,6 +19,8 @@
 -  [2.Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#2-power-and-sense-management)
   
    - [ 2.1. Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
+      -[2.1.1. 18650 lithium-ion batteries](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+     
   
    - [2.2. Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
   
@@ -33,10 +35,12 @@
 -  [4.Program Construction Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
    - [4.1. Camera Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
    - [4.2. ESP32 Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+   - 
+-  [5. Engineering Factor](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
      
--  [5. Appendices](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-   - [5.1. Team Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-   - [5.2. Vehicle Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+-  [6. Appendices](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+   - [6.1. Team Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+   - [6.2. Vehicle Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
 
      
 # Introduction
