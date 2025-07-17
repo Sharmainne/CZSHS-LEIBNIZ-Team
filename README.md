@@ -22,11 +22,13 @@
      
         * [2.1.1. 18650 lithium-ion batteries](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
          
-        * [2.1.2. ESP 32](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
-          
+        * [2.1.2. ESP 32](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#212-esp-32)
+    
+        * [2.1.3. TXS0108E chip](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#213-txs0108e-chip)
+    
+        * [2.1.4. DC-DC Buck Converter Step Down Module](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#214-dc-dc-buck-converter-step-down-module)
        
      
-  
    - [2.2. Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
   
 -  [3.Obstacle Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#3-obstacle-management)
