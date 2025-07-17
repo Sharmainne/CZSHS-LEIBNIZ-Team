@@ -81,7 +81,9 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
     For the front wheels of the Vehicle the team use 'LEGO Technic Medium Hub Motor (also known as the Medium Angular Motor in SPIKE Prime)' this is a compact, cube-like motor integral to newer LEGO robotics platforms like SPIKE Prime. It features integrated design with Technic pin compatibility, a specialized connector for LEGO hubs, and provides precise control over speed, direction, and rotational feedback due to its internal encoder. It's used for driving mechanisms and wheels in LEGO robots.
     while at the back of the vehicle the team use A 'LEGO Servo Motor' this is a specialized motor, since this  offers precise control over angular position rather than continuous rotation. It achieves this accuracy through a built-in encoder that provides feedback on its current angle. Unlike ordinary motors, it's commanded to move to specific positions within a limited range of motion (e.g., ±180 degrees), making it ideal for tasks requiring exact angular control like steering or operating robotic arms.
     The team used the 'LEGO Tecnic Medium Hub Motor' and the 'LEGO Servo Motor' for the vehicle because both can provide the precise, software-driven control over motion in robots that the team desired. These motors enable complex robotic movements, such as advanced steering or accurate positioning, and rely on digital commands from a central controller, moving beyond simple continuous rotation.
+    
 ### 1.2. Robot Design
+    
     
 
 
