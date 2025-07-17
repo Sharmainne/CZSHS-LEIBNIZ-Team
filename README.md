@@ -206,13 +206,21 @@ Source of Program/
 ## References
     For more detailed information and resources, you can refer to the ESP32 Arduino Core GitHub repository, the Official ESP32 Documentation, and the PlatformIO ESP32 Documentation. These resources provide extensive information on ESP32 development and troubleshooting.
 
-# 5. Appendices
+# 5. Engineering Factor 
+    The group's main engineering goal was to create a vehicle defined by its small and nimble nature. This initial choice was made with strategic intent to assure the robot's ability to move freely in tight spaces, namely the allocated parking zone. It also sought to provide easy negotiation of the complex obstacle course, allowing the robot to make its way around different traffic signs unscathed. One of the primary features of this design was the compact overall footprint of the vehicle. This specific measurement was carefully designed to enable sharp and responsive steering turns, thus greatly improving the robot's control and maneuverability during intricate maneuvers. 
+   
+    To make operations efficient and easy to use, the robot has a single, self-explanatory control button. With the touch of this button, the critical process is activated: simultaneous calibration of the robot's onboard gyroscope, camera, and ultrasonic sensors, all the sensory systems being geared up for instant usage.After these initial calibrations are done, the whole car automatically starts its pre-programmed process. This pre-loaded program instructs the robot to perform its pre-programmed task, which is to drive three complete laps around the specified map without any human intervention.
 
-## 5.1. Team Photos
+# 6. Appendices
 
-## 5.2. Vehicle Photos
+## 6.1. Team Photos
 
-## 5.3. Vehicle Bills of Materials
+| ----------------------------------- | ------------------------------- |
+|<img src
+
+## 6.2. Vehicle Photos
+
+## 6.3. Vehicle Bills of Materials
 
 
 
