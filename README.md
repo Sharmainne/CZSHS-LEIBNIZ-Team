@@ -19,9 +19,12 @@
 -  [2.Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#2-power-and-sense-management)
   
    - [ 2.1. Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
-        *[2.1.1. 18650 lithium-ion batteries](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
-        *[2.1.2. ESP 32](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
-        *[2.1.4. TXS0108E chip](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+     
+        * [2.1.1. 18650 lithium-ion batteries](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+         
+        * [2.1.2. ESP 32](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+          
+       
      
   
    - [2.2. Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
@@ -108,12 +111,12 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
     The team designated the ESP32-WROOM-32 as the central processing unit, or "brain," of the vehicle. This strategic choice was made due to its powerful dual-core processor and integrated Wi-Fi and Bluetooth capabilities, which provide the necessary computational power and connectivity to manage all critical operations and complex decision-making processes required for the robot's autonomous functions.As the vehicle's brain, the ESP32-WROOM-32 is responsible for orchestrating every aspect of its operation. This includes processing data from various sensors (like the ESP32-CAM and gyroscope), executing control algorithms for navigation and obstacle avoidance, and coordinating actions with actuators such as motors. Its wireless capabilities further enable remote control, data logging, and communication with other systems, making it an indispensable core for the vehicle's intelligent and connected functionality.
 
-### 2.1.4. TXS0108E chip
+### 2.1.3. TXS0108E chip
     The TXS0108E chip is an absolutely essential 8-bit bidirectional voltage-level translator. Its core purpose is to seamlessly and safely enable crucial communication between electronic components that operate at fundamentally different logic voltage levels, such as connecting a 3.3V microcontroller to a 5V sensor or vice-versa. This prevents potential damage to sensitive inputs by ensuring that signals are always at the correct voltage for the receiving component. Critically, the TXS0108E handles data flow in both directions automatically without requiring dedicated control pins, making it incredibly versatile for protocols like I2C, SPI, or UART where data lines are shared. This capability makes it an unparalleled choice for ensuring interoperability and robust protection in complex mixed-voltage circuits, commonly found in robotics, embedded systems, and DIY electronics projects.
 
     The Team decided to use the TXS0108E chip as a voltage-level translator because the ESP32-WROOM-32, which operates at 3.3 volts, cannot be directly connected to the 18650 Lithium-ion batteries that supply 8 volts. Crucially, the TXS0108E chip ensures that the signal voltages exchanged between the ESP32 and other components operating at different logic levels are safely translated, preventing damage and enabling proper communication for the vehicle to function. It is essential for maintaining voltage compatibility on data lines, not for regulating the main power supply voltage from the battery, which would require a separate voltage regulator.
 
-### 2.1.5. DC-DC Buck Converter Step Down Module
+### 2.1.4. DC-DC Buck Converter Step Down Module
     A DC-DC Buck Converter Step Down Module is an electronic circuit specifically designed to efficiently convert a higher DC (Direct Current) voltage into a stable, lower DC voltage. Unlike less efficient linear regulators that dissipate excess voltage as heat, buck converters are a type of switching power supply. They achieve their high efficiency (often exceeding 85-95%) by rapidly switching a component, like a transistor, on and off. This process precisely regulates the output voltage, ensuring it remains stable even if the input voltage fluctuates or the connected load changes. This module is a vital component in power management across numerous applications. It is commonly used in battery-powered devices to step down the battery's higher voltage to the lower voltage requirements of sensitive components like microcontrollers (e.g., 3.3V or 5V). Furthermore, buck converters are indispensable in automotive electronics, LED lighting, and general electronics projects where a specific, lower DC voltage needs to be derived efficiently from a higher DC source, thereby optimizing power usage and minimizing heat generation.
     
     The team strategically decided to incorporate DC-DC Buck Converter Step Down Modules into their design. This was absolutely critical because the ESP32-WROOM-32, the vehicle's "brain," can only safely operate at 3.3 volts, while the primary power source, the 18650 Lithium-ion battery, supplies 8 volts. Therefore, the 8 volts from the battery are directly fed into these DC-DC Buck Converter Step Down Modules, which then efficiently lower and regulate the main power supply voltage to the precise 3.3 volts required by the ESP32-WROOM-32.
