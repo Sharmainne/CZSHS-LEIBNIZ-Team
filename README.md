@@ -93,13 +93,13 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 # 1. Mobility Management
     In the Mobility management this are refers to the process of maintaining uninterrupted connectivity or access to a moving object. In telecommunications, it enables call/data transparency through monitoring device location and network handovers. For robotics, it is the capability of a robot to move autonomously, such as localization, mapping, path planning, and avoidance of obstacles, to preserve operational objectives during movement.
-### 1.1. Motor Selection 
+## 1.1. Motor Selection 
     For the front wheels of the Vehicle the team use 'LEGO Technic Medium Hub Motor (also known as the Medium Angular Motor in SPIKE Prime)' this is a compact, cube-like motor integral to newer LEGO robotics platforms like SPIKE Prime. It features integrated design with Technic pin compatibility, a specialized connector for LEGO hubs, and provides precise control over speed, direction, and rotational feedback due to its internal encoder. It's used for driving mechanisms and wheels in LEGO robots.
     while at the back of the vehicle the team use A 'LEGO Servo Motor' this is a specialized motor, since this  offers precise control over angular position rather than continuous rotation. It achieves this accuracy through a built-in encoder that provides feedback on its current angle. Unlike ordinary motors, it's commanded to move to specific positions within a limited range of motion (e.g., ±180 degrees), making it ideal for tasks requiring exact angular control like steering or operating robotic arms.
     The team used the 'LEGO Tecnic Medium Hub Motor' and the 'LEGO Servo Motor' for the vehicle because both can provide the precise, software-driven control over motion in robots that the team desired. These motors enable complex robotic movements, such as advanced steering or accurate positioning, and rely on digital commands from a central controller, moving beyond simple continuous rotation.
  <img src = https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/Image%20Discussion/steering.jfif>
     
-### 1.2. Robot Design
+## 1.2. Robot Design
      the team decided to do this vehicle design since this can be convenient and the team also needs a simple and smaller version of robot for the parking area so that can fit easily and it can possibly not hassle at all the team utilize thee length to be able steer easily and as well as the width for the balance weight of the vehicle
 <img width="1388" height="794" alt="image" src="https://github.com/user-attachments/assets/872bd2a2-8702-4429-8dbd-e69871b34c35" />
 
@@ -108,7 +108,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 
 # 2. Power and Sense Management
-### 2.1. Power Management 
+## 2.1. Power Management 
     Power management for robotics is the fundamental function of effectively governing, distributing, and optimizing a robot's electrical power. It means keeping track of and charging the power source safely, managing and distributing power to all devices, and actively minimizing energy usage through mechanisms such as sleep modes or dynamic power management. Its key significance is in maximizing autonomy, achieving stable performance, extending component life, and assuring the robot's safe use.
  <img src = https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/Image%20Discussion/power%20management.jfif>
  
@@ -173,28 +173,28 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
  ### STEP 1. Gathering Necessary Components
     Bringing an ESP32 camera module to life involves a series of steps, transforming it from a mere component into a functional web-streaming device. This journey begins with gathering the necessary components: your ESP32-CAM, an FTDI programmer or USB-to-serial adapter, and a handful of jumper wires to bridge the connections. These are the foundational pieces that will enable communication and power the module.
 
- ### STEP 2. Hardware Connections
+## STEP 2. Hardware Connections
     Once you have your components, the next crucial step is establishing the hardware connections. Carefully connect the FTDI programmer to the ESP32 camera module. This requires precise wiring: ensure the RX pin on the FTDI connects to the TX pin on the ESP32, and vice-versa, TX to RX. Always connect GND to GND, and for power, connect VCC to the appropriate voltage (either 3.3V or 5V), depending on your specific ESP32 model. A vital step for programming is to short the GPIO0 pin to GND; this puts the ESP32 into upload mode, allowing it to receive new code.
 
- ### STEP 3. Installing Arduino IDE
+## STEP 3. Installing Arduino IDE
     With the hardware sorted, the focus shifts to your computer, specifically to install the Arduino IDE. If you don't have the app, download and install the Arduino IDE from Arduino's official website. This application integrates development environment in where you'll write, compile, and upload the code to your ESP32.
 
- ### STEP 4. Configuring the Arduino IDE
+ ## STEP 4. Configuring the Arduino IDE
     After installation, you'll need to configure the Arduino IDE to recognize the ESP32 board. Open "File > Preferences" and in the "Additional Board Manager URLs" field, add the following URL: https://dl.espressif.com/dl/package_esp32_index.json. This URL provides access to the ESP32 board definitions. Next, navigate to "Tools > Board > Board Manager," search for "ESP32," and install the package specifically designed for ESP32 development boards. This will equip your Arduino IDE with the necessary files to communicate with your camera module.
 
- ### STEP 5. Selecting Board and Port
+ ## STEP 5. Selecting Board and Port
     With the IDE configured, it's time to select the correct board and port. Under "Tools > Board," you'll now find an option to select your specific ESP32 camera model (ESP32-CAM). For reliable uploads, set the upload speed to 115200 baud rate. Finally, you'll need to identify and select the appropriate COM port that corresponds to your connected FTDI programmer. This port is the communication channel between your computer and the ESP32.
 
- ### STEP 6. Loading Sample Code
+ ## STEP 6. Loading Sample Code
     When loading the sample code appear, open "File > Examples > ESP32 > Camera > CameraWebServer." This particular example provides a complete web server for streaming video from your ESP32-CAM. Additionally, ensure you select the correct camera model in the code by uncommenting the appropriate #define CAMERA_MODEL_AI_THINKER line (or whichever model you have).
 
- ### STEP 7. Uploading the Code
+ ## STEP 7. Uploading the Code
     With the code prepared, it's time to upload it to the ESP32. Ensure your ESP32 camera is connected to your computer via the FTDI programmer, and crucially, make sure GPIO0 is shorted to GND to keep it in programming mode. Then, in the Arduino IDE, click the "Upload" button to compile and transfer the code. Once the upload is complete, disconnect GPIO0 from GND; this allows the ESP32 to boot into normal operation mode, running the newly uploaded web server.
 
- ### STEP 8. Running the Program
+ ## STEP 8. Running the Program
     After the camera and program runs, open the Serial Monitor in the Arduino IDE (usually found under "Tools > Serial Monitor"). After a moment, the ESP32 will connect to your robot through USB-C cable and display the IP address assigned to the ESP32 camera. Copy this IP address and enter it into any web browser on a device connected to the same Wi-Fi network. This will bring up the camera's web interface, allowing you to view live feeds, adjust settings, and capture images or videos, effectively turning your ESP32-CAM into a remote surveillance or monitoring device.
 
- ### STEP 9. Troubleshooting
+ ## STEP 9. Troubleshooting
     Should you encounter any hiccups along the way, remember these troubleshooting tips. If the camera fails to boot or upload, double-check all your wiring and connections meticulously. Verify that you've selected the correct board and settings in the Arduino IDE. Reconfirm your Wi-Fi credentials and ensure your network is stable. If issues persist, a simple restart of the ESP32 camera can often resolve unresolved problems, giving you a fresh start.
 
 # 4.2. ESP32 Program Guide
