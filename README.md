@@ -227,7 +227,7 @@ Source of Program/
 ### Step 2. Install Required Libraries
     Your program may depend on various libraries. To install them, go to Tools > Manage Libraries within the Arduino IDE. In the Library Manager, search for any libraries listed in the #include statements of your .ino files and install them. This step ensures all necessary functions and components are available for your program to compile correctly.
 
-### STep 3. Open and Upload the Program
+### Step 3. Open and Upload the Program
     With your environment set up and libraries installed, you can now open the program. Open main.ino in the Arduino IDE, making sure that any supporting .ino files are located in the same folder to be recognized as part of the sketch. Connect your ESP32 board to your computer using a USB cable, then select the correct communication port under Tools > Port. Finally, click the "Upload" button (the right arrow icon) to compile and transfer the program to your ESP32 board.
 
 ## Common Issues & Troubleshooting
