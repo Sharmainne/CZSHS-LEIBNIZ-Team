@@ -37,7 +37,6 @@
 -  [5. Appendices](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
    - [5.1. Team Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
    - [5.2. Vehicle Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-   - [5.3. Vehicle Bills of Materials](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
 
      
 # Introduction
@@ -77,12 +76,15 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # 1. Mobility Management
     In the Mobility management this are refers to the process of maintaining uninterrupted connectivity or access to a moving object. In telecommunications, it enables call/data transparency through monitoring device location and network handovers. For robotics, it is the capability of a robot to move autonomously, such as localization, mapping, path planning, and avoidance of obstacles, to preserve operational objectives during movement.
 ### 1.1. Motor Selection 
-<img src = https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/Image%20Discussion/steering.jfif>
     For the front wheels of the Vehicle the team use 'LEGO Technic Medium Hub Motor (also known as the Medium Angular Motor in SPIKE Prime)' this is a compact, cube-like motor integral to newer LEGO robotics platforms like SPIKE Prime. It features integrated design with Technic pin compatibility, a specialized connector for LEGO hubs, and provides precise control over speed, direction, and rotational feedback due to its internal encoder. It's used for driving mechanisms and wheels in LEGO robots.
     while at the back of the vehicle the team use A 'LEGO Servo Motor' this is a specialized motor, since this  offers precise control over angular position rather than continuous rotation. It achieves this accuracy through a built-in encoder that provides feedback on its current angle. Unlike ordinary motors, it's commanded to move to specific positions within a limited range of motion (e.g., ±180 degrees), making it ideal for tasks requiring exact angular control like steering or operating robotic arms.
     The team used the 'LEGO Tecnic Medium Hub Motor' and the 'LEGO Servo Motor' for the vehicle because both can provide the precise, software-driven control over motion in robots that the team desired. These motors enable complex robotic movements, such as advanced steering or accurate positioning, and rely on digital commands from a central controller, moving beyond simple continuous rotation.
+ <img src = https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/blob/main/Image%20Discussion/steering.jfif>
     
 ### 1.2. Robot Design
+     the team decided to do this vehicle design since this can be convenient and the team also needs a simple and smaller version of robot for the parking area so that can fit easily and it can possibly not hassle at all the team utilize thee length to be able steer easily and as well as the width for the balance weight of the vehicle
+<img width="1388" height="794" alt="image" src="https://github.com/user-attachments/assets/872bd2a2-8702-4429-8dbd-e69871b34c35" />
+
     
     
 
@@ -212,8 +214,10 @@ Source of Program/
     To make operations efficient and easy to use, the robot has a single, self-explanatory control button. With the touch of this button, the critical process is activated: simultaneous calibration of the robot's onboard gyroscope, camera, and ultrasonic sensors, all the sensory systems being geared up for instant usage.After these initial calibrations are done, the whole car automatically starts its pre-programmed process. This pre-loaded program instructs the robot to perform its pre-programmed task, which is to drive three complete laps around the specified map without any human intervention.
 
 # 6. Appendices
+    These are the supplementary figures for the team's engineering documentation about the robot and the team.
 
 ## 6.1. Team Photos
+     part contains multiple official and funny photos of the team in order for judges to identify the team during the competition.
 
 | Formal Team Photos | Funny Team Photos|
 | ----------------------------------- | ------------------------------- |
@@ -230,10 +234,6 @@ Source of Program/
 |<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/c051f748-d7e2-4ebb-afd0-ad5dceffd6b7">|<img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/a2bc0ee5-4388-4cb5-9c08-0aaba1c48a88">
 | Isometric View                                                        |
 |<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/8b22a0f9-62e3-47c4-a6f1-a846fe1dff61">|
-
-
-## 6.3. Vehicle Bills of Materials
-
 
 
 
