@@ -219,7 +219,41 @@ Source of Program/
 | ----------------------------------- | ------------------------------- |
 | <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/0f36c774-9cd9-4116-b216-317051cb5f98" width = "480"> | <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/0076adf6-db14-4c03-a6cc-447048d2ba29" width = "480">|
 |<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/caacc902-b162-4de8-9b50-e291f700e06f"> | <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/32a9efd6-0b92-45aa-86ec-e406f930a30e" width = "480">|
+
 ## 6.2. Vehicle Photos
+| Front View                          | Rear View                       |
+| ----------------------------------- | ------------------------------- |
+|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/6acc3500-c773-4f09-936b-6b4fa06e0e0b"> | <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/1587a028-6e96-46f6-87e1-b68323f8debb">
+|
+| Left Side View                      | Right Side View                 |
+| ----------------------------------- | ------------------------------- |
+|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/fe9fbb0c-4562-4812-9ba1-fbe110c474d4"> | <img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/5eaf279a-0867-4354-9b4c-ab79bb7e031f" />|
+| Top View                           | Bottom  View                    | 
+| ----------------------------------- | ------------------------------- |
+|<img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Photos/Top_View-BSU-Spartan-Team.jpg?" width = "700"> | <img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Photos/Bottom_View-BSU-Spartan-Team.jpg?" width = "700">|
+| Isometric View                                                        |
+| --------------------------------------------------------------------- |
+|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/8b22a0f9-62e3-47c4-a6f1-a846fe1dff61">|
+
+## 7.3. Vehicle Virtual Model
+
+This part contains multiple photos displaying all six (6) sides and one isometric view of the robot's virtual model. These were made with the use of [<i>Studio 2.0</i>](https://www.bricklink.com/v3/studio/main.page).
+
+| Front View                          | Rear View                       |
+| ----------------------------------- | ------------------------------- |
+|<img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Virtual%20Model/Front_View_Virtual-BSU_Spartan_Team.png?" width = "700">|<img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Virtual%20Model/Rear_View_Virtual-BSU_Spartan_Team.png?" width = "700">|
+
+| Left Side View                      | Right Side View                 |
+| ----------------------------------- | ------------------------------- |
+|<img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Virtual%20Model/Left_Side_View_Virtual-BSU_Spartan_Team.png?" width = "700">|<img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Virtual%20Model/Right_Side_View_Virtual-BSU_Spartan_Team.png?" width = "700">|
+
+| Top View                            | Bottom  View                    | 
+| ----------------------------------- | ------------------------------- |
+|<img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Virtual%20Model/Top_View_Virtual-BSU_Spartan_Team.png?" width = "700">|<img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Virtual%20Model/Bottom_View_Virtual-BSU_Spartan_Team.png?" width = "700">|
+
+| Isometric View                                                        |
+| --------------------------------------------------------------------- |
+|<img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Virtual%20Model/Isometric_View_Virtual-BSU_Spartan_Team.png?">|
 
 ## 6.3. Vehicle Bills of Materials
 
