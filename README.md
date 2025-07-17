@@ -50,7 +50,7 @@
 In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 - Juan Miguel C. Rabanal
 
-  Social Media contact: https://www.facebook.com/juanmiguel.rabanal?mibextid=ZbWKwL
+  Social Media contact: https://www.facebook.com/miguel.rabanal.733
   
 - Jan Josh D.T. Santos
 
