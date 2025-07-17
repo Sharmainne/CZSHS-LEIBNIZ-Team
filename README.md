@@ -30,25 +30,32 @@
        
      
    - [2.2. Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
+
+
+        * [2.2.1 ESP 32 Camera](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#221-esp-32-camera)
+    
+        * [2.2.2. Three Axis Digital Gyroscope Sensor Module](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#222-three-axis-digital-gyroscope-sensor-module)
+    
+        * [2.2.3 Ultra Sonic Sensor](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#223-ultra-sonic-sensor)
+
   
--  [3.Obstacle Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#3-obstacle-management)
+-  [3.Obstacle Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#3-obstacle-management)
 
-   - [3.1. Robot Driving Mechanism](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#31-determine-driving-direction)
+   - [3.1. Robot Driving Mechanism](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#31-robot-driving-mechanism)
 
-   - [3.2. Open Challange Strategy](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#32-open-challenge-strategy)
+   - [3.2. Open Challange Strategy](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#32-open-challenge-strategy)
+        * [3.2.1 Wall Avoidance](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#321-wall-avoidance)
      
-   - [3.3 Obstacle Challenge Strategy](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#33-obstacle-challenge-strategy)
-
--  [4.Program Construction Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-   - [4.1. Camera Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
-   - [4.2. ESP32 Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-program-construction-guide)
+   - [3.3 Obstacle Challenge Strategy](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team#33-obstacle-challenge-strategy)
+     
+-  [4.Program Construction Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#4-program-construction-guide)
+   - [4.1. Camera Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#41-camera-program-guide)
+   - [4.2. ESP32 Program Guide](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#42-esp32-program-guide)
    - 
--  [5. Engineering Factor](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
-     
--  [6. Appendices](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
-   - [6.1. Team Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
-   - [6.2. Vehicle Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
-
+-  [5. Engineering Factor](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#5-engineering-factor)
+-  [6. Appendices](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#6-appendices)
+   - [6.1. Team Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#61-team-photos)
+   - [6.2. Vehicle Photos](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#62-vehicle-photos)
      
 # Introduction
     This is the official engineering documentation of the Cielito Zamora Senior High School (CZSHS) LEIBNIZ Team for the Philippine Robot Olympiad (PRO) 2025 in the Future Engineers Category. Our project, centered around the theme "Future of the Engineers," explores the boundless potential of robotics in shaping the future of engineering and technology. In this documentation, we present our self-driving car project, an innovative leap into autonomous systems. As we build this robot, we explore not only the technologies behind self-driving vehicles but also the profound impact they will have on engineering, mobility, and society as a whole. From autonomous navigation to advanced sensor integration, this project blends robotics, machine learning, and engineering principles to create a system that learns, adapts, and performs in dynamic environments. 
@@ -146,7 +153,8 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
     To successfully detect and negotiate the obstacles on the field, a meticulously planned strategy is essential for completing 3 laps in both the Open and Obstacle Challenge Rounds. The team dedicated significant time to developing efficient obstacle management approaches, consistently incorporating innovative and effective ideas into their strategy.
 ## 3.1. Robot Driving Mechanism
     The robot employs a parallel steering geometry, wherein a front LEGO Technic Medium hub motor precisely steers the front wheels in parallel. The robot is propelled by a rear-wheel drive (RWD) transmission, where power from the rear LEGO Servo motor drives the rear wheels, enabling forward or reverse propulsion. This specific steering geometry and transmission configuration was selected by the team due to its prevalence and proven effectiveness within the Future Engineers Category. Furthermore, empirical testing conducted by the team demonstrated that the RWD system provided superior handling characteristics compared to a front-wheel drive (FWD) configuration.
-    
+<img width="1676" height="1078" alt="image" src="https://github.com/user-attachments/assets/c52e1fb7-601a-4f66-a4bd-1e5d4f758242" />
+
 
 ## 3.2. Open Challenge Strategy
      In Open Challenge Rounds, the only obstacles present on the game field are its outer boundary wall and the randomly placed inner wall. The robot must not touch the outer wall and must not move the inner wall to successfully finish the three laps requirement.
