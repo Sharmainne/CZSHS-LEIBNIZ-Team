@@ -114,6 +114,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 # 3. Obstacle Management 
     To successfully detect and negotiate the obstacles on the field, a meticulously planned strategy is essential for completing 3 laps in both the Open and Obstacle Challenge Rounds. The team dedicated significant time to developing efficient obstacle management approaches, consistently incorporating innovative and effective ideas into their strategy.
 ## 3.1. Robot Driving Mechanism
+    The robot employs a parallel steering geometry, wherein a front LEGO Technic Medium hub motor precisely steers the front wheels in parallel. The robot is propelled by a rear-wheel drive (RWD) transmission, where power from the rear LEGO Servo motor drives the rear wheels, enabling forward or reverse propulsion. This specific steering geometry and transmission configuration was selected by the team due to its prevalence and proven effectiveness within the Future Engineers Category. Furthermore, empirical testing conducted by the team demonstrated that the RWD system provided superior handling characteristics compared to a front-wheel drive (FWD) configuration.
     
 
 ## 3.2. Open Challenge Strategy
