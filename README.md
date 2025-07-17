@@ -19,7 +19,9 @@
 -  [2.Power and Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#2-power-and-sense-management)
   
    - [ 2.1. Power Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
-      -[2.1.1. 18650 lithium-ion batteries](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+        *[2.1.1. 18650 lithium-ion batteries](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+        *[2.1.2. ESP 32](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
+        *[2.1.4. TXS0108E chip](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team/tree/main?tab=readme-ov-file#5-engineering-factor)
      
   
    - [2.2. Sense Management](https://github.com/Sharmainne/CZSHS-LEIBNIZ-Team?tab=readme-ov-file#21-power-management)
