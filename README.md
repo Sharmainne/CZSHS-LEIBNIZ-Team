@@ -228,12 +228,10 @@ Source of Program/
 | Left Side View                      | Right Side View                 |
 | ----------------------------------- | ------------------------------- |
 |<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/fe9fbb0c-4562-4812-9ba1-fbe110c474d4"> | <img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/5eaf279a-0867-4354-9b4c-ab79bb7e031f" />|
-| Top View                           | Bottom  View                    | 
-| ----------------------------------- | ------------------------------- |
+| Top View                            | Bottom  View                    | 
 |<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/c051f748-d7e2-4ebb-afd0-ad5dceffd6b7" />
  | <img src = "https://github.com/AbeBuck/BSU-Spartan-Team_FE-2024/blob/main/Vehicle%20Photos/Bottom_View-BSU-Spartan-Team.jpg?" width = "700">|
 | Isometric View                                                        |
-| --------------------------------------------------------------------- |
 |<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/8b22a0f9-62e3-47c4-a6f1-a846fe1dff61">|
 
 
