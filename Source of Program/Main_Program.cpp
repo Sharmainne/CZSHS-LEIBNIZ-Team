@@ -52,6 +52,8 @@ float KdWall=0.1;
 PID mySteeringPID(KpGyro, KiGyro, KdGyro); // PID for steering control
 PID myWallSteer(KpWall, KiWall, KdWall); // PID for aligning the robot at the middle
 
+int InitialFront = 0; // To include initial front value and stop for the last lap
+
 void setup() {
   Serial.begin(115200);
   Serial.println("Robot ESP32 starting..."); // To determine if our robot is ready enough to make a run
@@ -79,7 +81,10 @@ void setup() {
       Serial.print(mySonars.getFrontRight()); Serial.print(" ");
       Serial.print(mySonars.getRight()); Serial.println(" ");
   }
-
+  
+ mySonars.read();
+  InitialFront = mySonars.getFront() / 2; // To record initial front value and stop for the last lap
+  
   myMotor.write(140); // To make the robot move forward
 }
 
@@ -89,6 +94,8 @@ int direction = 0;
 int targetAngle = 0;
 int turnTime = 0;
 int nextTurn = 0;
+int clockwise = 1;
+int counterclockwise = -1;
 
 // For global calibration of these variables
 int turntimemax = 25; // Maximum time to turn
@@ -103,6 +110,13 @@ void loop() {
   myGyro.getData();
   myGyro.readAll();
   mySonars.read();
+
+  if (turn >= 13) {
+  myMotor.write(90); // Slow down for the last lap
+  if (mySonars.getFront() <= InitialFront ) {
+    myMotor.write(0); // Stop the motor if front distance is less than initial 
+  }
+  return;
 
   targetAngle = ((turn * 90) - (turn * gyrodriftcompensation * -direction)) * direction;  // To guide the robot's turn consecutively then calculated value will be received by gyro
 
@@ -120,9 +134,9 @@ void loop() {
     nextTurn = nextturnmax;
     if (direction == 0) {
       if (mySonars.getLeft() > mySonars.getRight()) {
-        direction = -1; // if the ultaronic on the left side is greater than ultraonic on right side, he direction(-1) will be multiplied to 90° turn of servo steering motor
+        direction = counterclockwise; // if the ultaronic on the left side is greater than ultraonic on right side, the direction(-1) will be multiplied to 90° turn of servo steering motor
       } else {
-        direction = 1; // if the ultaronic on the left side is greater than ultraonic on right side, the direction (1) will be multiplied to 90° turn of servo steering motor
+        direction = clockwise; // if the ultaronic on the left side is greater than ultraonic on right side, the direction (1) will be multiplied to 90° turn of servo steering motor
       }
     }
   }
