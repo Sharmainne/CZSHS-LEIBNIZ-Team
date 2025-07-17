@@ -174,8 +174,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 ## 3.2. Open Challenge Strategy
      In Open Challenge Rounds, the only obstacles present on the game field are its outer boundary wall and the randomly placed inner wall. The robot must not touch the outer wall and must not move the inner wall to successfully finish the three laps requirement.
-[![](https://youtu.be/NMx7oAEPLlU]
-
+[![](https://img.shields.io/badge/YouTube-OPEN_CHALLENGE-df3e3e?logo=youtube)](https://youtu.be/06rUdOECv34?si=MXno1v4bBEbKgmpB)
 ### 3.2.1 Wall Avoidance 
     To successfully avoid touching the outer boundary wall, the robot automatically performs a 90° turn based on gyro when it detects it is within a specific distance. This can ensure that the robot maintains a safe distance from the outer wall after each maneuver. The ultrasonic sensor is critical for detecting if the robot is about to collide with the outer wall; if an imminent collision is detected, the robot immediately steers away and especially, to make the robot align itself to the middle distance between walls. Furthermore, these ultrasonic sensor also enables the robot to maintain a precise angle, guaranteeing proper turns and straight driving paths after each rotation.
     
