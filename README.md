@@ -218,7 +218,7 @@ Source of Program/
 | Formal Team Photos | Funny Team Photos|
 | ----------------------------------- | ------------------------------- |
 | <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/0f36c774-9cd9-4116-b216-317051cb5f98" width = "480"> | <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/0076adf6-db14-4c03-a6cc-447048d2ba29" width = "480">|
-|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/c6da5406-b09a-4ff2-a767-2776337d7d25"> | <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/32a9efd6-0b92-45aa-86ec-e406f930a30e" width = "480">|
+|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/caacc902-b162-4de8-9b50-e291f700e06f"> | <img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/32a9efd6-0b92-45aa-86ec-e406f930a30e" width = "480">|
 ## 6.2. Vehicle Photos
 
 ## 6.3. Vehicle Bills of Materials
