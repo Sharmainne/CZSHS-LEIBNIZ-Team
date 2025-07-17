@@ -62,6 +62,17 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 
 # Main Robot Specifications
+     The CZSHS-Leibniz Team Presents this self-driving robot for the Phillipine Robot Olympiad 2024. Designed with precision, agility, and performance in mind, this robot embodies innovation and teamwork by our trio. Engineered to meet the demands of the competition, the Cielito-Leibniz Robots features a combination design built with LEGO® and ESP 32 Camera, offering optimal speed, maneuverability, and power efficiency. Below are the specifications that highlight the robot’s capabilities, reflecting our team's commitment to excellence and readiness to compete on the global stage.
+
+* Dimensions: 254mm(L) x 177.8mm(W) x 165mm (H)
+* Weight: 0.92kg
+* Maximum Speed: 6.8m/s
+* Maximum Steer: ±45°
+* Steering Torque: 100Ncm
+* Working Voltage: 4.4V-8.8V
+* Drive System: Rear-wheel drive (RWD)
+* Steering Geometry: Parallel steering
+* Material: LEGO® Technic
 
 # 1. Mobility Management
     In the Mobility management this are refers to the process of maintaining uninterrupted connectivity or access to a moving object. In telecommunications, it enables call/data transparency through monitoring device location and network handovers. For robotics, it is the capability of a robot to move autonomously, such as localization, mapping, path planning, and avoidance of obstacles, to preserve operational objectives during movement.
@@ -70,7 +81,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
     while at the back of the vehicle the team use A 'LEGO Servo Motor' this is a specialized motor, since this  offers precise control over angular position rather than continuous rotation. It achieves this accuracy through a built-in encoder that provides feedback on its current angle. Unlike ordinary motors, it's commanded to move to specific positions within a limited range of motion (e.g., ±180 degrees), making it ideal for tasks requiring exact angular control like steering or operating robotic arms.
     The team used the 'LEGO Tecnic Medium Hub Motor' and the 'LEGO Servo Motor' for the vehicle because both can provide the precise, software-driven control over motion in robots that the team desired. These motors enable complex robotic movements, such as advanced steering or accurate positioning, and rely on digital commands from a central controller, moving beyond simple continuous rotation.
 ### 1.2. Robot Design
-
+    
 
 
 # 2. Power and Sense Management
