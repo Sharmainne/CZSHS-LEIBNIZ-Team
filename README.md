@@ -125,47 +125,67 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 ## 3.3. Obstacle Challenge Strategy
     In Obstacle Challenge Rounds, the game field becomes much more complex with increased obstacles. The robot must navigate a field containing an outer boundary, a random inner wall, and up to seven randomly colored traffic signs (green or red), plus two parking lot boundaries. The robot's tasks include passing green signs on the left, red signs on the right, and parking between the lot boundaries after completing three laps, all while avoiding contact with any traffic signs or parking boundaries.
 
-### 3.3.1 Traffic Sign Ditection
+### 4. Program Construction Guide
 
-### 3.3.2. Parking lot Detection
-
-
-# 4. Program Construction Guide
-
-The program construction for the CZSHS LEIBNIZ Team robotics project is centered in this repository, which serves as the official codebase for all robot control software for the Philippine Robotics Olympiad (PRO) 2025. All logic and algorithms are implemented in C++ and maintained within the "source of program" directory, ensuring every source file uses the `.cpp` extension for proper syntax highlighting and compilation. The codebase is organized by functionality—such as sensor handling, motor control, and decision-making to promote clarity and ease of development. Team members follow clear and consistent naming conventions, write modular code, and document important sections to better understand and for future updates. Before committing, all changes are tested thoroughly, both in simulation and on the robot, to ensure reliability. Collaboration is facilitated through regular updates: members pull the latest changes before starting new work, use branches for features or fixes, and submit clear, descriptive commit messages. Major updates or issues are communicated through the repository’s discussion tools. By adhering to these practices, the team maintains an organized, maintainable, and competition-ready program.
+    The program construction for the CZSHS LEIBNIZ Team robotics project is centered in this repository, which serves as the official codebase for all robot control software for the Philippine Robotics Olympiad (PRO) 2025. All logic and algorithms are implemented in C++ and maintained within the "source of program" directory, ensuring every source file uses the `.cpp` extension for proper syntax highlighting and compilation. The codebase is organized by functionality—such as sensor handling, motor control, and decision-making to promote clarity and ease of development. Team members follow clear and consistent naming conventions, write modular code, and document important sections to better understand and for future updates. Before committing, all changes are tested thoroughly, both in simulation and on the robot, to ensure reliability. Collaboration is facilitated through regular updates: members pull the latest changes before starting new work, use branches for features or fixes, and submit clear, descriptive commit messages. Major updates or issues are communicated through the repository’s discussion tools. By adhering to these practices, the team maintains an organized, maintainable, and competition-ready program.
 
 ## 4.1. Camera Program Guide
  ### STEP 1. Gathering Necessary Components
-Bringing an ESP32 camera module to life involves a series of steps, transforming it from a mere component into a functional web-streaming device. This journey begins with gathering the necessary components: your ESP32-CAM, an FTDI programmer or USB-to-serial adapter, and a handful of jumper wires to bridge the connections. These are the foundational pieces that will enable communication and power the module.
+    Bringing an ESP32 camera module to life involves a series of steps, transforming it from a mere component into a functional web-streaming device. This journey begins with gathering the necessary components: your ESP32-CAM, an FTDI programmer or USB-to-serial adapter, and a handful of jumper wires to bridge the connections. These are the foundational pieces that will enable communication and power the module.
 
  ### STEP 2. Hardware Connections
-Once you have your components, the next crucial step is establishing the hardware connections. Carefully connect the FTDI programmer to the ESP32 camera module. This requires precise wiring: ensure the RX pin on the FTDI connects to the TX pin on the ESP32, and vice-versa, TX to RX. Always connect GND to GND, and for power, connect VCC to the appropriate voltage (either 3.3V or 5V), depending on your specific ESP32 model. A vital step for programming is to short the GPIO0 pin to GND; this puts the ESP32 into upload mode, allowing it to receive new code.
+    Once you have your components, the next crucial step is establishing the hardware connections. Carefully connect the FTDI programmer to the ESP32 camera module. This requires precise wiring: ensure the RX pin on the FTDI connects to the TX pin on the ESP32, and vice-versa, TX to RX. Always connect GND to GND, and for power, connect VCC to the appropriate voltage (either 3.3V or 5V), depending on your specific ESP32 model. A vital step for programming is to short the GPIO0 pin to GND; this puts the ESP32 into upload mode, allowing it to receive new code.
 
  ### STEP 3. Installing Arduino IDE
-With the hardware sorted, the focus shifts to your computer, specifically to install the Arduino IDE. If you don't have the app, download and install the Arduino IDE from Arduino's official website. This application integrates development environment in where you'll write, compile, and upload the code to your ESP32.
+    With the hardware sorted, the focus shifts to your computer, specifically to install the Arduino IDE. If you don't have the app, download and install the Arduino IDE from Arduino's official website. This application integrates development environment in where you'll write, compile, and upload the code to your ESP32.
 
  ### STEP 4. Configuring the Arduino IDE
-After installation, you'll need to configure the Arduino IDE to recognize the ESP32 board. Open "File > Preferences" and in the "Additional Board Manager URLs" field, add the following URL: https://dl.espressif.com/dl/package_esp32_index.json. This URL provides access to the ESP32 board definitions. Next, navigate to "Tools > Board > Board Manager," search for "ESP32," and install the package specifically designed for ESP32 development boards. This will equip your Arduino IDE with the necessary files to communicate with your camera module.
+    After installation, you'll need to configure the Arduino IDE to recognize the ESP32 board. Open "File > Preferences" and in the "Additional Board Manager URLs" field, add the following URL: https://dl.espressif.com/dl/package_esp32_index.json. This URL provides access to the ESP32 board definitions. Next, navigate to "Tools > Board > Board Manager," search for "ESP32," and install the package specifically designed for ESP32 development boards. This will equip your Arduino IDE with the necessary files to communicate with your camera module.
 
  ### STEP 5. Selecting Board and Port
-With the IDE configured, it's time to select the correct board and port. Under "Tools > Board," you'll now find an option to select your specific ESP32 camera model (ESP32-CAM). For reliable uploads, set the upload speed to 115200 baud rate. Finally, you'll need to identify and select the appropriate COM port that corresponds to your connected FTDI programmer. This port is the communication channel between your computer and the ESP32.
+    With the IDE configured, it's time to select the correct board and port. Under "Tools > Board," you'll now find an option to select your specific ESP32 camera model (ESP32-CAM). For reliable uploads, set the upload speed to 115200 baud rate. Finally, you'll need to identify and select the appropriate COM port that corresponds to your connected FTDI programmer. This port is the communication channel between your computer and the ESP32.
 
  ### STEP 6. Loading Sample Code
-When loading the sample code appear, open "File > Examples > ESP32 > Camera > CameraWebServer." This particular example provides a complete web server for streaming video from your ESP32-CAM. Additionally, ensure you select the correct camera model in the code by uncommenting the appropriate #define CAMERA_MODEL_AI_THINKER line (or whichever model you have).
+    When loading the sample code appear, open "File > Examples > ESP32 > Camera > CameraWebServer." This particular example provides a complete web server for streaming video from your ESP32-CAM. Additionally, ensure you select the correct camera model in the code by uncommenting the appropriate #define CAMERA_MODEL_AI_THINKER line (or whichever model you have).
 
  ### STEP 7. Uploading the Code
-With the code prepared, it's time to upload it to the ESP32. Ensure your ESP32 camera is connected to your computer via the FTDI programmer, and crucially, make sure GPIO0 is shorted to GND to keep it in programming mode. Then, in the Arduino IDE, click the "Upload" button to compile and transfer the code. Once the upload is complete, disconnect GPIO0 from GND; this allows the ESP32 to boot into normal operation mode, running the newly uploaded web server.
+    With the code prepared, it's time to upload it to the ESP32. Ensure your ESP32 camera is connected to your computer via the FTDI programmer, and crucially, make sure GPIO0 is shorted to GND to keep it in programming mode. Then, in the Arduino IDE, click the "Upload" button to compile and transfer the code. Once the upload is complete, disconnect GPIO0 from GND; this allows the ESP32 to boot into normal operation mode, running the newly uploaded web server.
 
  ### STEP 8. Running the Program
-After the camera and program runs, open the Serial Monitor in the Arduino IDE (usually found under "Tools > Serial Monitor"). After a moment, the ESP32 will connect to your robot through USB-C cable and display the IP address assigned to the ESP32 camera. Copy this IP address and enter it into any web browser on a device connected to the same Wi-Fi network. This will bring up the camera's web interface, allowing you to view live feeds, adjust settings, and capture images or videos, effectively turning your ESP32-CAM into a remote surveillance or monitoring device.
+    After the camera and program runs, open the Serial Monitor in the Arduino IDE (usually found under "Tools > Serial Monitor"). After a moment, the ESP32 will connect to your robot through USB-C cable and display the IP address assigned to the ESP32 camera. Copy this IP address and enter it into any web browser on a device connected to the same Wi-Fi network. This will bring up the camera's web interface, allowing you to view live feeds, adjust settings, and capture images or videos, effectively turning your ESP32-CAM into a remote surveillance or monitoring device.
 
  ### STEP 9. Troubleshooting
-Should you encounter any hiccups along the way, remember these troubleshooting tips. If the camera fails to boot or upload, double-check all your wiring and connections meticulously. Verify that you've selected the correct board and settings in the Arduino IDE. Reconfirm your Wi-Fi credentials and ensure your network is stable. If issues persist, a simple restart of the ESP32 camera can often resolve unresolved problems, giving you a fresh start.
+    Should you encounter any hiccups along the way, remember these troubleshooting tips. If the camera fails to boot or upload, double-check all your wiring and connections meticulously. Verify that you've selected the correct board and settings in the Arduino IDE. Reconfirm your Wi-Fi credentials and ensure your network is stable. If issues persist, a simple restart of the ESP32 camera can often resolve unresolved problems, giving you a fresh start.
 
-## 4.2. ESP32 Program Guide
+### 4.2. ESP32 Program Guide
     Welcome to the ESP32 Program Guide for the CZSHS-LEIBNIZ-Team repository! This guide is designed to help you set up your environment, understand the code structure, and successfully upload programs to your ESP32 board using the files provided in the Source of Program folder.
-    
 
+Folder Structure
+    The Source of Program/ directory contains all the necessary files for our ESP32 program. This includes main.ino, which serves as the primary entry point for sketch. Any custom libraries required for the project are located in the library/ folder, and this README.md file provides documentation and usage instructions.
+
+Source of Program/
+│
+├── main.ino          # Main Arduino sketch for ESP32
+├── library/          # Custom libraries (if any)
+└──  README.md         # This guide
+
+Prerequisites
+    Before you begin, ensure you have an ESP32 Board (such as an ESP32 DevKit, NodeMCU-ESP32S, or WROOM) and a USB-C Cable to connect it to your computer. You will also need to install either the Arduino IDE or PlatformIO (available as a VSCode extension) as your development environment.
+
+Step 1. Set Up Arduino IDE for ESP32
+    Once the repository is cloned, configure your Arduino IDE to work with ESP32 boards. Open the Arduino IDE, go to File > Preferences, and in the "Additional Boards Manager URLs" field, add the provided URL for the ESP32 board definitions. After saving, open the Tools > Board > Boards Manager, search for "esp32", and click "Install" to add the necessary board support. Finally, select your specific ESP32 board from the Tools > Board menu.
+
+Step 2. Install Required Libraries
+    Your program may depend on various libraries. To install them, go to Tools > Manage Libraries within the Arduino IDE. In the Library Manager, search for any libraries listed in the #include statements of your .ino files and install them. This step ensures all necessary functions and components are available for your program to compile correctly.
+
+STep 3. Open and Upload the Program
+    With your environment set up and libraries installed, you can now open the program. Open main.ino in the Arduino IDE, making sure that any supporting .ino files are located in the same folder to be recognized as part of the sketch. Connect your ESP32 board to your computer using a USB cable, then select the correct communication port under Tools > Port. Finally, click the "Upload" button (the right arrow icon) to compile and transfer the program to your ESP32 board.
+
+# Common Issues & Troubleshooting
+    If your board is not found, ensure that you have installed the appropriate USB drivers for your ESP32 board and that you have selected the correct board type and serial port in the Arduino IDE's Tools menu. If the upload fails, try holding down the BOOT button on your ESP32 board while the upload process is running; this often puts the board into programming mode. If you encounter errors due to missing libraries, carefully review the #include statements in your code and use the Arduino IDE's Library Manager (Tools > Manage Libraries) to search for and install any libraries that are not present.
+
+References
+    For more detailed information and resources, you can refer to the ESP32 Arduino Core GitHub repository, the Official ESP32 Documentation, and the PlatformIO ESP32 Documentation. These resources provide extensive information on ESP32 development and troubleshooting.
 
 # 5. Appendices
 
