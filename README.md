@@ -54,7 +54,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
   
 - Jan Josh D.T. Santos
 
-  Social Media contact: https://www.facebook.com/janjosh.santos.1?mibextid=ZbWKwL
+  Social Media contact: https://www.facebook.com/share/14GvB6W9dwH/?mibextid=wwXIfr
   
 - Sharmainne Joy D. Campo
 
