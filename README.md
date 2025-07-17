@@ -69,12 +69,12 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
     For the front wheels of the Vehicle the team use 'LEGO Technic Medium Hub Motor (also known as the Medium Angular Motor in SPIKE Prime)' this is a compact, cube-like motor integral to newer LEGO robotics platforms like SPIKE Prime. It features integrated design with Technic pin compatibility, a specialized connector for LEGO hubs, and provides precise control over speed, direction, and rotational feedback due to its internal encoder. It's used for driving mechanisms and wheels in LEGO robots.
     while at the back of the vehicle the team use A 'LEGO Servo Motor' this is a specialized motor, since this  offers precise control over angular position rather than continuous rotation. It achieves this accuracy through a built-in encoder that provides feedback on its current angle. Unlike ordinary motors, it's commanded to move to specific positions within a limited range of motion (e.g., ±180 degrees), making it ideal for tasks requiring exact angular control like steering or operating robotic arms.
     The team used the 'LEGO Tecnic Medium Hub Motor' and the 'LEGO Servo Motor' for the vehicle because both can provide the precise, software-driven control over motion in robots that the team desired. These motors enable complex robotic movements, such as advanced steering or accurate positioning, and rely on digital commands from a central controller, moving beyond simple continuous rotation.
-## 1.2. Robot Design
+# 1.2. Robot Design
 
 
 
 # 2. Power and Sense Management
-## 2.1. Power Management 
+### 2.1. Power Management 
     Power management for robotics is the fundamental function of effectively governing, distributing, and optimizing a robot's electrical power. It means keeping track of and charging the power source safely, managing and distributing power to all devices, and actively minimizing energy usage through mechanisms such as sleep modes or dynamic power management. Its key significance is in maximizing autonomy, achieving stable performance, extending component life, and assuring the robot's safe use.
 ### 2.1.1. 18650 lithium-ion batteries
     18650 lithium-ion batteries are the source of the power of the veehicle, valued for their high energy density and nominal voltage of 3.6V or 3.7V per cell (which can be combined into higher voltage packs). This provide the necessary high discharge current for motors and power microcontrollers/sensors, enabling longer operating times and customizable battery configurations. Proper safety measures, such as a Battery Management System (BMS), are crucial due to their unprotected nature. 
@@ -157,10 +157,10 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
  ### STEP 9. Troubleshooting
     Should you encounter any hiccups along the way, remember these troubleshooting tips. If the camera fails to boot or upload, double-check all your wiring and connections meticulously. Verify that you've selected the correct board and settings in the Arduino IDE. Reconfirm your Wi-Fi credentials and ensure your network is stable. If issues persist, a simple restart of the ESP32 camera can often resolve unresolved problems, giving you a fresh start.
 
-##### 4.2. ESP32 Program Guide
+# 4.2. ESP32 Program Guide
     Welcome to the ESP32 Program Guide for the CZSHS-LEIBNIZ-Team repository! This guide is designed to help you set up your environment, understand the code structure, and successfully upload programs to your ESP32 board using the files provided in the Source of Program folder.
 
-# Folder Structure
+## Folder Structure
     The Source of Program/ directory contains all the necessary files for our ESP32 program. This includes main.ino, which serves as the primary entry point for sketch. Any custom libraries required for the project are located in the library/ folder, and this README.md file provides documentation and usage instructions.
 
 Source of Program/
@@ -169,22 +169,22 @@ Source of Program/
 ├── library/          # Custom libraries (if any)
 └──  README.md         # This guide
 
-# Prerequisites
+## Prerequisites
     Before you begin, ensure you have an ESP32 Board (such as an ESP32 DevKit, NodeMCU-ESP32S, or WROOM) and a USB-C Cable to connect it to your computer. You will also need to install either the Arduino IDE or PlatformIO (available as a VSCode extension) as your development environment.
 
-# Step 1. Set Up Arduino IDE for ESP32
+### Step 1. Set Up Arduino IDE for ESP32
     Once the repository is cloned, configure your Arduino IDE to work with ESP32 boards. Open the Arduino IDE, go to File > Preferences, and in the "Additional Boards Manager URLs" field, add the provided URL for the ESP32 board definitions. After saving, open the Tools > Board > Boards Manager, search for "esp32", and click "Install" to add the necessary board support. Finally, select your specific ESP32 board from the Tools > Board menu.
 
-# Step 2. Install Required Libraries
+### Step 2. Install Required Libraries
     Your program may depend on various libraries. To install them, go to Tools > Manage Libraries within the Arduino IDE. In the Library Manager, search for any libraries listed in the #include statements of your .ino files and install them. This step ensures all necessary functions and components are available for your program to compile correctly.
 
-# STep 3. Open and Upload the Program
+### STep 3. Open and Upload the Program
     With your environment set up and libraries installed, you can now open the program. Open main.ino in the Arduino IDE, making sure that any supporting .ino files are located in the same folder to be recognized as part of the sketch. Connect your ESP32 board to your computer using a USB cable, then select the correct communication port under Tools > Port. Finally, click the "Upload" button (the right arrow icon) to compile and transfer the program to your ESP32 board.
 
-# Common Issues & Troubleshooting
+## Common Issues & Troubleshooting
     If your board is not found, ensure that you have installed the appropriate USB drivers for your ESP32 board and that you have selected the correct board type and serial port in the Arduino IDE's Tools menu. If the upload fails, try holding down the BOOT button on your ESP32 board while the upload process is running; this often puts the board into programming mode. If you encounter errors due to missing libraries, carefully review the #include statements in your code and use the Arduino IDE's Library Manager (Tools > Manage Libraries) to search for and install any libraries that are not present.
 
-# References
+## References
     For more detailed information and resources, you can refer to the ESP32 Arduino Core GitHub repository, the Official ESP32 Documentation, and the PlatformIO ESP32 Documentation. These resources provide extensive information on ESP32 development and troubleshooting.
 
 # 5. Appendices
