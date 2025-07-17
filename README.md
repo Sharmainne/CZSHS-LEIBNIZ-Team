@@ -65,11 +65,11 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 
 # 1. Mobility Management
     In the Mobility management this are refers to the process of maintaining uninterrupted connectivity or access to a moving object. In telecommunications, it enables call/data transparency through monitoring device location and network handovers. For robotics, it is the capability of a robot to move autonomously, such as localization, mapping, path planning, and avoidance of obstacles, to preserve operational objectives during movement.
-## 1.1. Motor Selection 
+### 1.1. Motor Selection 
     For the front wheels of the Vehicle the team use 'LEGO Technic Medium Hub Motor (also known as the Medium Angular Motor in SPIKE Prime)' this is a compact, cube-like motor integral to newer LEGO robotics platforms like SPIKE Prime. It features integrated design with Technic pin compatibility, a specialized connector for LEGO hubs, and provides precise control over speed, direction, and rotational feedback due to its internal encoder. It's used for driving mechanisms and wheels in LEGO robots.
     while at the back of the vehicle the team use A 'LEGO Servo Motor' this is a specialized motor, since this  offers precise control over angular position rather than continuous rotation. It achieves this accuracy through a built-in encoder that provides feedback on its current angle. Unlike ordinary motors, it's commanded to move to specific positions within a limited range of motion (e.g., ±180 degrees), making it ideal for tasks requiring exact angular control like steering or operating robotic arms.
     The team used the 'LEGO Tecnic Medium Hub Motor' and the 'LEGO Servo Motor' for the vehicle because both can provide the precise, software-driven control over motion in robots that the team desired. These motors enable complex robotic movements, such as advanced steering or accurate positioning, and rely on digital commands from a central controller, moving beyond simple continuous rotation.
-# 1.2. Robot Design
+### 1.2. Robot Design
 
 
 
@@ -125,7 +125,7 @@ In the Following image are the pictures of the members of FUTURE ENGINEERS Team:
 ## 3.3. Obstacle Challenge Strategy
     In Obstacle Challenge Rounds, the game field becomes much more complex with increased obstacles. The robot must navigate a field containing an outer boundary, a random inner wall, and up to seven randomly colored traffic signs (green or red), plus two parking lot boundaries. The robot's tasks include passing green signs on the left, red signs on the right, and parking between the lot boundaries after completing three laps, all while avoiding contact with any traffic signs or parking boundaries.
 
-### 4. Program Construction Guide
+# 4. Program Construction Guide
 
     The program construction for the CZSHS LEIBNIZ Team robotics project is centered in this repository, which serves as the official codebase for all robot control software for the Philippine Robotics Olympiad (PRO) 2025. All logic and algorithms are implemented in C++ and maintained within the "source of program" directory, ensuring every source file uses the `.cpp` extension for proper syntax highlighting and compilation. The codebase is organized by functionality—such as sensor handling, motor control, and decision-making to promote clarity and ease of development. Team members follow clear and consistent naming conventions, write modular code, and document important sections to better understand and for future updates. Before committing, all changes are tested thoroughly, both in simulation and on the robot, to ensure reliability. Collaboration is facilitated through regular updates: members pull the latest changes before starting new work, use branches for features or fixes, and submit clear, descriptive commit messages. Major updates or issues are communicated through the repository’s discussion tools. By adhering to these practices, the team maintains an organized, maintainable, and competition-ready program.
 
