@@ -223,11 +223,9 @@ Source of Program/
 ## 6.2. Vehicle Photos
 | Front View                          | Rear View                       |
 | ----------------------------------- | ------------------------------- |
-|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/6acc3500-c773-4f09-936b-6b4fa06e0e0b">|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/1587a028-6e96-46f6-87e1-b68323f8debb">
-|
+|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/6acc3500-c773-4f09-936b-6b4fa06e0e0b">|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/1587a028-6e96-46f6-87e1-b68323f8debb">|
 | Left Side View                      | Right Side View                 |
-| ----------------------------------- | ------------------------------- |
-|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/fe9fbb0c-4562-4812-9ba1-fbe110c474d4">|<img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/5eaf279a-0867-4354-9b4c-ab79bb7e031f">|
+|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/fe9fbb0c-4562-4812-9ba1-fbe110c474d4">|<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/eb7adb4a-6684-4968-b99b-d48ad34e5b42">|
 | Top View                            | Bottom  View                    | 
 |<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/c051f748-d7e2-4ebb-afd0-ad5dceffd6b7">|<img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/a2bc0ee5-4388-4cb5-9c08-0aaba1c48a88">
 | Isometric View                                                        |
